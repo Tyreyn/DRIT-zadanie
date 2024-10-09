@@ -1,0 +1,1604 @@
+﻿<?xml version="1.0" encoding="utf-8" standalone="no"?>
+<Project ToolsVersion="14.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <PropertyGroup Condition=" '$(ExcludeRestorePackageImports)' != 'true' ">
+    <RestoreSuccess Condition=" '$(RestoreSuccess)' == '' ">True</RestoreSuccess>
+    <RestoreTool Condition=" '$(RestoreTool)' == '' ">NuGet</RestoreTool>
+    <ProjectAssetsFile Condition=" '$(ProjectAssetsFile)' == '' ">$(MSBuildThisFileDirectory)project.assets.json</ProjectAssetsFile>
+    <NuGetPackageRoot Condition=" '$(NuGetPackageRoot)' == '' ">$(UserProfile)\.nuget\packages\</NuGetPackageRoot>
+    <NuGetPackageFolders Condition=" '$(NuGetPackageFolders)' == '' ">C:\Users\athos\.nuget\packages\;C:\Program Files (x86)\Microsoft Visual Studio\Shared\NuGetPackages</NuGetPackageFolders>
+    <NuGetProjectStyle Condition=" '$(NuGetProjectStyle)' == '' ">PackageReference</NuGetProjectStyle>
+    <NuGetToolVersion Condition=" '$(NuGetToolVersion)' == '' ">6.8.0</NuGetToolVersion>
+  </PropertyGroup>
+  <ItemGroup Condition=" '$(ExcludeRestorePackageImports)' != 'true' ">
+    <SourceRoot Include="C:\Users\athos\.nuget\packages\" />
+    <SourceRoot Include="C:\Program Files (x86)\Microsoft Visual Studio\Shared\NuGetPackages\" />
+  </ItemGroup>
+  <ItemGroup Condition=" '$(ExcludeRestorePackageImports)' != 'true' ">
+    <Content Include="$(NuGetPackageRoot)soneta.core\2210.2.2\contentFiles\any\net472\pdfium.dll" Condition="Exists('$(NuGetPackageRoot)soneta.core\2210.2.2\contentFiles\any\net472\pdfium.dll')">
+      <NuGetPackageId>Soneta.Core</NuGetPackageId>
+      <NuGetPackageVersion>2210.2.2</NuGetPackageVersion>
+      <NuGetItemType>Content</NuGetItemType>
+      <Pack>false</Pack>
+      <Private>False</Private>
+      <Link>pdfium.dll</Link>
+    </Content>
+  </ItemGroup>
+  <ItemGroup Condition=" '$(ExcludeRestorePackageImports)' != 'true' ">
+    <Content Include="$(NuGetPackageRoot)soneta.kasa\2210.2.2\contentFiles\any\net472\7za.exe" Condition="Exists('$(NuGetPackageRoot)soneta.kasa\2210.2.2\contentFiles\any\net472\7za.exe')">
+      <NuGetPackageId>Soneta.Kasa</NuGetPackageId>
+      <NuGetPackageVersion>2210.2.2</NuGetPackageVersion>
+      <NuGetItemType>Content</NuGetItemType>
+      <Pack>false</Pack>
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+      <TargetPath>7za.exe</TargetPath>
+      <Private>True</Private>
+      <Link>7za.exe</Link>
+    </Content>
+  </ItemGroup>
+  <ItemGroup Condition=" '$(ExcludeRestorePackageImports)' != 'true' ">
+    <Content Include="$(NuGetPackageRoot)soneta.products.content\2210.2.2\contentFiles\any\netstandard2.0\Demo\001.Podstawy.xml" Condition="Exists('$(NuGetPackageRoot)soneta.products.content\2210.2.2\contentFiles\any\netstandard2.0\Demo\001.Podstawy.xml')">
+      <NuGetPackageId>Soneta.Products.Content</NuGetPackageId>
+      <NuGetPackageVersion>2210.2.2</NuGetPackageVersion>
+      <NuGetItemType>Content</NuGetItemType>
+      <Pack>false</Pack>
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+      <TargetPath>Demo\001.Podstawy.xml</TargetPath>
+      <DestinationSubDirectory>Demo\</DestinationSubDirectory>
+      <Private>True</Private>
+      <Link>Demo\001.Podstawy.xml</Link>
+    </Content>
+    <Content Include="$(NuGetPackageRoot)soneta.products.content\2210.2.2\contentFiles\any\netstandard2.0\Demo\002.Podstawy.gold.xml" Condition="Exists('$(NuGetPackageRoot)soneta.products.content\2210.2.2\contentFiles\any\netstandard2.0\Demo\002.Podstawy.gold.xml')">
+      <NuGetPackageId>Soneta.Products.Content</NuGetPackageId>
+      <NuGetPackageVersion>2210.2.2</NuGetPackageVersion>
+      <NuGetItemType>Content</NuGetItemType>
+      <Pack>false</Pack>
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+      <TargetPath>Demo\002.Podstawy.gold.xml</TargetPath>
+      <DestinationSubDirectory>Demo\</DestinationSubDirectory>
+      <Private>True</Private>
+      <Link>Demo\002.Podstawy.gold.xml</Link>
+    </Content>
+    <Content Include="$(NuGetPackageRoot)soneta.products.content\2210.2.2\contentFiles\any\netstandard2.0\Demo\002.Podstawy.silver.xml" Condition="Exists('$(NuGetPackageRoot)soneta.products.content\2210.2.2\contentFiles\any\netstandard2.0\Demo\002.Podstawy.silver.xml')">
+      <NuGetPackageId>Soneta.Products.Content</NuGetPackageId>
+      <NuGetPackageVersion>2210.2.2</NuGetPackageVersion>
+      <NuGetItemType>Content</NuGetItemType>
+      <Pack>false</Pack>
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+      <TargetPath>Demo\002.Podstawy.silver.xml</TargetPath>
+      <DestinationSubDirectory>Demo\</DestinationSubDirectory>
+      <Private>True</Private>
+      <Link>Demo\002.Podstawy.silver.xml</Link>
+    </Content>
+    <Content Include="$(NuGetPackageRoot)soneta.products.content\2210.2.2\contentFiles\any\netstandard2.0\Demo\100.Handel.xml" Condition="Exists('$(NuGetPackageRoot)soneta.products.content\2210.2.2\contentFiles\any\netstandard2.0\Demo\100.Handel.xml')">
+      <NuGetPackageId>Soneta.Products.Content</NuGetPackageId>
+      <NuGetPackageVersion>2210.2.2</NuGetPackageVersion>
+      <NuGetItemType>Content</NuGetItemType>
+      <Pack>false</Pack>
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+      <TargetPath>Demo\100.Handel.xml</TargetPath>
+      <DestinationSubDirectory>Demo\</DestinationSubDirectory>
+      <Private>True</Private>
+      <Link>Demo\100.Handel.xml</Link>
+    </Content>
+    <Content Include="$(NuGetPackageRoot)soneta.products.content\2210.2.2\contentFiles\any\netstandard2.0\Demo\100.Kadry.gold.xml" Condition="Exists('$(NuGetPackageRoot)soneta.products.content\2210.2.2\contentFiles\any\netstandard2.0\Demo\100.Kadry.gold.xml')">
+      <NuGetPackageId>Soneta.Products.Content</NuGetPackageId>
+      <NuGetPackageVersion>2210.2.2</NuGetPackageVersion>
+      <NuGetItemType>Content</NuGetItemType>
+      <Pack>false</Pack>
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+      <TargetPath>Demo\100.Kadry.gold.xml</TargetPath>
+      <DestinationSubDirectory>Demo\</DestinationSubDirectory>
+      <Private>True</Private>
+      <Link>Demo\100.Kadry.gold.xml</Link>
+    </Content>
+    <Content Include="$(NuGetPackageRoot)soneta.products.content\2210.2.2\contentFiles\any\netstandard2.0\Demo\100.Kadry.silver.xml" Condition="Exists('$(NuGetPackageRoot)soneta.products.content\2210.2.2\contentFiles\any\netstandard2.0\Demo\100.Kadry.silver.xml')">
+      <NuGetPackageId>Soneta.Products.Content</NuGetPackageId>
+      <NuGetPackageVersion>2210.2.2</NuGetPackageVersion>
+      <NuGetItemType>Content</NuGetItemType>
+      <Pack>false</Pack>
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+      <TargetPath>Demo\100.Kadry.silver.xml</TargetPath>
+      <DestinationSubDirectory>Demo\</DestinationSubDirectory>
+      <Private>True</Private>
+      <Link>Demo\100.Kadry.silver.xml</Link>
+    </Content>
+    <Content Include="$(NuGetPackageRoot)soneta.products.content\2210.2.2\contentFiles\any\netstandard2.0\Demo\100.Ksiega.gold.xml" Condition="Exists('$(NuGetPackageRoot)soneta.products.content\2210.2.2\contentFiles\any\netstandard2.0\Demo\100.Ksiega.gold.xml')">
+      <NuGetPackageId>Soneta.Products.Content</NuGetPackageId>
+      <NuGetPackageVersion>2210.2.2</NuGetPackageVersion>
+      <NuGetItemType>Content</NuGetItemType>
+      <Pack>false</Pack>
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+      <TargetPath>Demo\100.Ksiega.gold.xml</TargetPath>
+      <DestinationSubDirectory>Demo\</DestinationSubDirectory>
+      <Private>True</Private>
+      <Link>Demo\100.Ksiega.gold.xml</Link>
+    </Content>
+    <Content Include="$(NuGetPackageRoot)soneta.products.content\2210.2.2\contentFiles\any\netstandard2.0\Demo\101.BazaDemo_Listy.xml" Condition="Exists('$(NuGetPackageRoot)soneta.products.content\2210.2.2\contentFiles\any\netstandard2.0\Demo\101.BazaDemo_Listy.xml')">
+      <NuGetPackageId>Soneta.Products.Content</NuGetPackageId>
+      <NuGetPackageVersion>2210.2.2</NuGetPackageVersion>
+      <NuGetItemType>Content</NuGetItemType>
+      <Pack>false</Pack>
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+      <TargetPath>Demo\101.BazaDemo_Listy.xml</TargetPath>
+      <DestinationSubDirectory>Demo\</DestinationSubDirectory>
+      <Private>True</Private>
+      <Link>Demo\101.BazaDemo_Listy.xml</Link>
+    </Content>
+    <Content Include="$(NuGetPackageRoot)soneta.products.content\2210.2.2\contentFiles\any\netstandard2.0\Demo\101.Kadry.xml" Condition="Exists('$(NuGetPackageRoot)soneta.products.content\2210.2.2\contentFiles\any\netstandard2.0\Demo\101.Kadry.xml')">
+      <NuGetPackageId>Soneta.Products.Content</NuGetPackageId>
+      <NuGetPackageVersion>2210.2.2</NuGetPackageVersion>
+      <NuGetItemType>Content</NuGetItemType>
+      <Pack>false</Pack>
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+      <TargetPath>Demo\101.Kadry.xml</TargetPath>
+      <DestinationSubDirectory>Demo\</DestinationSubDirectory>
+      <Private>True</Private>
+      <Link>Demo\101.Kadry.xml</Link>
+    </Content>
+    <Content Include="$(NuGetPackageRoot)soneta.products.content\2210.2.2\contentFiles\any\netstandard2.0\Patterns\Budzet.Budzet\1.Podstawy.xml" Condition="Exists('$(NuGetPackageRoot)soneta.products.content\2210.2.2\contentFiles\any\netstandard2.0\Patterns\Budzet.Budzet\1.Podstawy.xml')">
+      <NuGetPackageId>Soneta.Products.Content</NuGetPackageId>
+      <NuGetPackageVersion>2210.2.2</NuGetPackageVersion>
+      <NuGetItemType>Content</NuGetItemType>
+      <Pack>false</Pack>
+      <Private>False</Private>
+      <Link>Patterns\Budzet.Budzet\1.Podstawy.xml</Link>
+    </Content>
+    <Content Include="$(NuGetPackageRoot)soneta.products.content\2210.2.2\contentFiles\any\netstandard2.0\Patterns\Budzet.Budzet\100.Listy_KiP.xml" Condition="Exists('$(NuGetPackageRoot)soneta.products.content\2210.2.2\contentFiles\any\netstandard2.0\Patterns\Budzet.Budzet\100.Listy_KiP.xml')">
+      <NuGetPackageId>Soneta.Products.Content</NuGetPackageId>
+      <NuGetPackageVersion>2210.2.2</NuGetPackageVersion>
+      <NuGetItemType>Content</NuGetItemType>
+      <Pack>false</Pack>
+      <Private>False</Private>
+      <Link>Patterns\Budzet.Budzet\100.Listy_KiP.xml</Link>
+    </Content>
+    <Content Include="$(NuGetPackageRoot)soneta.products.content\2210.2.2\contentFiles\any\netstandard2.0\Patterns\Budzet.Budzet\2.Podstawy.gold.xml" Condition="Exists('$(NuGetPackageRoot)soneta.products.content\2210.2.2\contentFiles\any\netstandard2.0\Patterns\Budzet.Budzet\2.Podstawy.gold.xml')">
+      <NuGetPackageId>Soneta.Products.Content</NuGetPackageId>
+      <NuGetPackageVersion>2210.2.2</NuGetPackageVersion>
+      <NuGetItemType>Content</NuGetItemType>
+      <Pack>false</Pack>
+      <Private>False</Private>
+      <Link>Patterns\Budzet.Budzet\2.Podstawy.gold.xml</Link>
+    </Content>
+    <Content Include="$(NuGetPackageRoot)soneta.products.content\2210.2.2\contentFiles\any\netstandard2.0\Patterns\Budzet.Budzet\3.cechy budzet.xml" Condition="Exists('$(NuGetPackageRoot)soneta.products.content\2210.2.2\contentFiles\any\netstandard2.0\Patterns\Budzet.Budzet\3.cechy budzet.xml')">
+      <NuGetPackageId>Soneta.Products.Content</NuGetPackageId>
+      <NuGetPackageVersion>2210.2.2</NuGetPackageVersion>
+      <NuGetItemType>Content</NuGetItemType>
+      <Pack>false</Pack>
+      <Private>False</Private>
+      <Link>Patterns\Budzet.Budzet\3.cechy budzet.xml</Link>
+    </Content>
+    <Content Include="$(NuGetPackageRoot)soneta.products.content\2210.2.2\contentFiles\any\netstandard2.0\Patterns\Budzet.Budzet\4.pracownicy i cechy.xml" Condition="Exists('$(NuGetPackageRoot)soneta.products.content\2210.2.2\contentFiles\any\netstandard2.0\Patterns\Budzet.Budzet\4.pracownicy i cechy.xml')">
+      <NuGetPackageId>Soneta.Products.Content</NuGetPackageId>
+      <NuGetPackageVersion>2210.2.2</NuGetPackageVersion>
+      <NuGetItemType>Content</NuGetItemType>
+      <Pack>false</Pack>
+      <Private>False</Private>
+      <Link>Patterns\Budzet.Budzet\4.pracownicy i cechy.xml</Link>
+    </Content>
+    <Content Include="$(NuGetPackageRoot)soneta.products.content\2210.2.2\contentFiles\any\netstandard2.0\Patterns\Budzet.Budzet\5.element dodhistoria.xml" Condition="Exists('$(NuGetPackageRoot)soneta.products.content\2210.2.2\contentFiles\any\netstandard2.0\Patterns\Budzet.Budzet\5.element dodhistoria.xml')">
+      <NuGetPackageId>Soneta.Products.Content</NuGetPackageId>
+      <NuGetPackageVersion>2210.2.2</NuGetPackageVersion>
+      <NuGetItemType>Content</NuGetItemType>
+      <Pack>false</Pack>
+      <Private>False</Private>
+      <Link>Patterns\Budzet.Budzet\5.element dodhistoria.xml</Link>
+    </Content>
+    <Content Include="$(NuGetPackageRoot)soneta.products.content\2210.2.2\contentFiles\any\netstandard2.0\Patterns\Budzet.Budzet\6.definicje dokumentow.xml" Condition="Exists('$(NuGetPackageRoot)soneta.products.content\2210.2.2\contentFiles\any\netstandard2.0\Patterns\Budzet.Budzet\6.definicje dokumentow.xml')">
+      <NuGetPackageId>Soneta.Products.Content</NuGetPackageId>
+      <NuGetPackageVersion>2210.2.2</NuGetPackageVersion>
+      <NuGetItemType>Content</NuGetItemType>
+      <Pack>false</Pack>
+      <Private>False</Private>
+      <Link>Patterns\Budzet.Budzet\6.definicje dokumentow.xml</Link>
+    </Content>
+    <Content Include="$(NuGetPackageRoot)soneta.products.content\2210.2.2\contentFiles\any\netstandard2.0\Patterns\Budzet.Budzet\7.Slowniki konta i schematy.xml" Condition="Exists('$(NuGetPackageRoot)soneta.products.content\2210.2.2\contentFiles\any\netstandard2.0\Patterns\Budzet.Budzet\7.Slowniki konta i schematy.xml')">
+      <NuGetPackageId>Soneta.Products.Content</NuGetPackageId>
+      <NuGetPackageVersion>2210.2.2</NuGetPackageVersion>
+      <NuGetItemType>Content</NuGetItemType>
+      <Pack>false</Pack>
+      <Private>False</Private>
+      <Link>Patterns\Budzet.Budzet\7.Slowniki konta i schematy.xml</Link>
+    </Content>
+    <Content Include="$(NuGetPackageRoot)soneta.products.content\2210.2.2\contentFiles\any\netstandard2.0\Patterns\Budzet.Budzet\8.Ustawienia formularzy i list.xml" Condition="Exists('$(NuGetPackageRoot)soneta.products.content\2210.2.2\contentFiles\any\netstandard2.0\Patterns\Budzet.Budzet\8.Ustawienia formularzy i list.xml')">
+      <NuGetPackageId>Soneta.Products.Content</NuGetPackageId>
+      <NuGetPackageVersion>2210.2.2</NuGetPackageVersion>
+      <NuGetItemType>Content</NuGetItemType>
+      <Pack>false</Pack>
+      <Private>False</Private>
+      <Link>Patterns\Budzet.Budzet\8.Ustawienia formularzy i list.xml</Link>
+    </Content>
+    <Content Include="$(NuGetPackageRoot)soneta.products.content\2210.2.2\contentFiles\any\netstandard2.0\Patterns\Budzet.Budzet\9.Widok listy pracownikow.xml" Condition="Exists('$(NuGetPackageRoot)soneta.products.content\2210.2.2\contentFiles\any\netstandard2.0\Patterns\Budzet.Budzet\9.Widok listy pracownikow.xml')">
+      <NuGetPackageId>Soneta.Products.Content</NuGetPackageId>
+      <NuGetPackageVersion>2210.2.2</NuGetPackageVersion>
+      <NuGetItemType>Content</NuGetItemType>
+      <Pack>false</Pack>
+      <Private>False</Private>
+      <Link>Patterns\Budzet.Budzet\9.Widok listy pracownikow.xml</Link>
+    </Content>
+    <Content Include="$(NuGetPackageRoot)soneta.products.content\2210.2.2\contentFiles\any\netstandard2.0\Patterns\Budzet.Budzet\index.html" Condition="Exists('$(NuGetPackageRoot)soneta.products.content\2210.2.2\contentFiles\any\netstandard2.0\Patterns\Budzet.Budzet\index.html')">
+      <NuGetPackageId>Soneta.Products.Content</NuGetPackageId>
+      <NuGetPackageVersion>2210.2.2</NuGetPackageVersion>
+      <NuGetItemType>Content</NuGetItemType>
+      <Pack>false</Pack>
+      <Private>False</Private>
+      <Link>Patterns\Budzet.Budzet\index.html</Link>
+    </Content>
+    <Content Include="$(NuGetPackageRoot)soneta.products.content\2210.2.2\contentFiles\any\netstandard2.0\Patterns\Budzet.Budzet\index_pliki\boil.css" Condition="Exists('$(NuGetPackageRoot)soneta.products.content\2210.2.2\contentFiles\any\netstandard2.0\Patterns\Budzet.Budzet\index_pliki\boil.css')">
+      <NuGetPackageId>Soneta.Products.Content</NuGetPackageId>
+      <NuGetPackageVersion>2210.2.2</NuGetPackageVersion>
+      <NuGetItemType>Content</NuGetItemType>
+      <Pack>false</Pack>
+      <Private>False</Private>
+      <Link>Patterns\Budzet.Budzet\index_pliki\boil.css</Link>
+    </Content>
+    <Content Include="$(NuGetPackageRoot)soneta.products.content\2210.2.2\contentFiles\any\netstandard2.0\Patterns\Budzet.Budzet\index_pliki\bulb.png" Condition="Exists('$(NuGetPackageRoot)soneta.products.content\2210.2.2\contentFiles\any\netstandard2.0\Patterns\Budzet.Budzet\index_pliki\bulb.png')">
+      <NuGetPackageId>Soneta.Products.Content</NuGetPackageId>
+      <NuGetPackageVersion>2210.2.2</NuGetPackageVersion>
+      <NuGetItemType>Content</NuGetItemType>
+      <Pack>false</Pack>
+      <Private>False</Private>
+      <Link>Patterns\Budzet.Budzet\index_pliki\bulb.png</Link>
+    </Content>
+    <Content Include="$(NuGetPackageRoot)soneta.products.content\2210.2.2\contentFiles\any\netstandard2.0\Patterns\Budzet.Budzet\index_pliki\colorschememapping.xml" Condition="Exists('$(NuGetPackageRoot)soneta.products.content\2210.2.2\contentFiles\any\netstandard2.0\Patterns\Budzet.Budzet\index_pliki\colorschememapping.xml')">
+      <NuGetPackageId>Soneta.Products.Content</NuGetPackageId>
+      <NuGetPackageVersion>2210.2.2</NuGetPackageVersion>
+      <NuGetItemType>Content</NuGetItemType>
+      <Pack>false</Pack>
+      <Private>False</Private>
+      <Link>Patterns\Budzet.Budzet\index_pliki\colorschememapping.xml</Link>
+    </Content>
+    <Content Include="$(NuGetPackageRoot)soneta.products.content\2210.2.2\contentFiles\any\netstandard2.0\Patterns\Budzet.Budzet\index_pliki\filelist.xml" Condition="Exists('$(NuGetPackageRoot)soneta.products.content\2210.2.2\contentFiles\any\netstandard2.0\Patterns\Budzet.Budzet\index_pliki\filelist.xml')">
+      <NuGetPackageId>Soneta.Products.Content</NuGetPackageId>
+      <NuGetPackageVersion>2210.2.2</NuGetPackageVersion>
+      <NuGetItemType>Content</NuGetItemType>
+      <Pack>false</Pack>
+      <Private>False</Private>
+      <Link>Patterns\Budzet.Budzet\index_pliki\filelist.xml</Link>
+    </Content>
+    <Content Include="$(NuGetPackageRoot)soneta.products.content\2210.2.2\contentFiles\any\netstandard2.0\Patterns\Budzet.Budzet\index_pliki\image001.jpg" Condition="Exists('$(NuGetPackageRoot)soneta.products.content\2210.2.2\contentFiles\any\netstandard2.0\Patterns\Budzet.Budzet\index_pliki\image001.jpg')">
+      <NuGetPackageId>Soneta.Products.Content</NuGetPackageId>
+      <NuGetPackageVersion>2210.2.2</NuGetPackageVersion>
+      <NuGetItemType>Content</NuGetItemType>
+      <Pack>false</Pack>
+      <Private>False</Private>
+      <Link>Patterns\Budzet.Budzet\index_pliki\image001.jpg</Link>
+    </Content>
+    <Content Include="$(NuGetPackageRoot)soneta.products.content\2210.2.2\contentFiles\any\netstandard2.0\Patterns\Budzet.Budzet\index_pliki\image002.png" Condition="Exists('$(NuGetPackageRoot)soneta.products.content\2210.2.2\contentFiles\any\netstandard2.0\Patterns\Budzet.Budzet\index_pliki\image002.png')">
+      <NuGetPackageId>Soneta.Products.Content</NuGetPackageId>
+      <NuGetPackageVersion>2210.2.2</NuGetPackageVersion>
+      <NuGetItemType>Content</NuGetItemType>
+      <Pack>false</Pack>
+      <Private>False</Private>
+      <Link>Patterns\Budzet.Budzet\index_pliki\image002.png</Link>
+    </Content>
+    <Content Include="$(NuGetPackageRoot)soneta.products.content\2210.2.2\contentFiles\any\netstandard2.0\Patterns\Budzet.Budzet\index_pliki\logo_enova365.png" Condition="Exists('$(NuGetPackageRoot)soneta.products.content\2210.2.2\contentFiles\any\netstandard2.0\Patterns\Budzet.Budzet\index_pliki\logo_enova365.png')">
+      <NuGetPackageId>Soneta.Products.Content</NuGetPackageId>
+      <NuGetPackageVersion>2210.2.2</NuGetPackageVersion>
+      <NuGetItemType>Content</NuGetItemType>
+      <Pack>false</Pack>
+      <Private>False</Private>
+      <Link>Patterns\Budzet.Budzet\index_pliki\logo_enova365.png</Link>
+    </Content>
+    <Content Include="$(NuGetPackageRoot)soneta.products.content\2210.2.2\contentFiles\any\netstandard2.0\Patterns\Budzet.Budzet\index_pliki\style.css" Condition="Exists('$(NuGetPackageRoot)soneta.products.content\2210.2.2\contentFiles\any\netstandard2.0\Patterns\Budzet.Budzet\index_pliki\style.css')">
+      <NuGetPackageId>Soneta.Products.Content</NuGetPackageId>
+      <NuGetPackageVersion>2210.2.2</NuGetPackageVersion>
+      <NuGetItemType>Content</NuGetItemType>
+      <Pack>false</Pack>
+      <Private>False</Private>
+      <Link>Patterns\Budzet.Budzet\index_pliki\style.css</Link>
+    </Content>
+    <Content Include="$(NuGetPackageRoot)soneta.products.content\2210.2.2\contentFiles\any\netstandard2.0\Patterns\Budzet.Budzet\index_pliki\themedata.thmx" Condition="Exists('$(NuGetPackageRoot)soneta.products.content\2210.2.2\contentFiles\any\netstandard2.0\Patterns\Budzet.Budzet\index_pliki\themedata.thmx')">
+      <NuGetPackageId>Soneta.Products.Content</NuGetPackageId>
+      <NuGetPackageVersion>2210.2.2</NuGetPackageVersion>
+      <NuGetItemType>Content</NuGetItemType>
+      <Pack>false</Pack>
+      <Private>False</Private>
+      <Link>Patterns\Budzet.Budzet\index_pliki\themedata.thmx</Link>
+    </Content>
+    <Content Include="$(NuGetPackageRoot)soneta.products.content\2210.2.2\contentFiles\any\netstandard2.0\Patterns\CRM.OfertowanieKlientowi\001.Podstawy.xml" Condition="Exists('$(NuGetPackageRoot)soneta.products.content\2210.2.2\contentFiles\any\netstandard2.0\Patterns\CRM.OfertowanieKlientowi\001.Podstawy.xml')">
+      <NuGetPackageId>Soneta.Products.Content</NuGetPackageId>
+      <NuGetPackageVersion>2210.2.2</NuGetPackageVersion>
+      <NuGetItemType>Content</NuGetItemType>
+      <Pack>false</Pack>
+      <Private>False</Private>
+      <Link>Patterns\CRM.OfertowanieKlientowi\001.Podstawy.xml</Link>
+    </Content>
+    <Content Include="$(NuGetPackageRoot)soneta.products.content\2210.2.2\contentFiles\any\netstandard2.0\Patterns\CRM.OfertowanieKlientowi\100.Handel.xml" Condition="Exists('$(NuGetPackageRoot)soneta.products.content\2210.2.2\contentFiles\any\netstandard2.0\Patterns\CRM.OfertowanieKlientowi\100.Handel.xml')">
+      <NuGetPackageId>Soneta.Products.Content</NuGetPackageId>
+      <NuGetPackageVersion>2210.2.2</NuGetPackageVersion>
+      <NuGetItemType>Content</NuGetItemType>
+      <Pack>false</Pack>
+      <Private>False</Private>
+      <Link>Patterns\CRM.OfertowanieKlientowi\100.Handel.xml</Link>
+    </Content>
+    <Content Include="$(NuGetPackageRoot)soneta.products.content\2210.2.2\contentFiles\any\netstandard2.0\Patterns\CRM.OfertowanieKlientowi\100.Kadry.gold.xml" Condition="Exists('$(NuGetPackageRoot)soneta.products.content\2210.2.2\contentFiles\any\netstandard2.0\Patterns\CRM.OfertowanieKlientowi\100.Kadry.gold.xml')">
+      <NuGetPackageId>Soneta.Products.Content</NuGetPackageId>
+      <NuGetPackageVersion>2210.2.2</NuGetPackageVersion>
+      <NuGetItemType>Content</NuGetItemType>
+      <Pack>false</Pack>
+      <Private>False</Private>
+      <Link>Patterns\CRM.OfertowanieKlientowi\100.Kadry.gold.xml</Link>
+    </Content>
+    <Content Include="$(NuGetPackageRoot)soneta.products.content\2210.2.2\contentFiles\any\netstandard2.0\Patterns\CRM.OfertowanieKlientowi\100.Kadry.silver.xml" Condition="Exists('$(NuGetPackageRoot)soneta.products.content\2210.2.2\contentFiles\any\netstandard2.0\Patterns\CRM.OfertowanieKlientowi\100.Kadry.silver.xml')">
+      <NuGetPackageId>Soneta.Products.Content</NuGetPackageId>
+      <NuGetPackageVersion>2210.2.2</NuGetPackageVersion>
+      <NuGetItemType>Content</NuGetItemType>
+      <Pack>false</Pack>
+      <Private>False</Private>
+      <Link>Patterns\CRM.OfertowanieKlientowi\100.Kadry.silver.xml</Link>
+    </Content>
+    <Content Include="$(NuGetPackageRoot)soneta.products.content\2210.2.2\contentFiles\any\netstandard2.0\Patterns\CRM.OfertowanieKlientowi\100.Ksiega.gold.xml" Condition="Exists('$(NuGetPackageRoot)soneta.products.content\2210.2.2\contentFiles\any\netstandard2.0\Patterns\CRM.OfertowanieKlientowi\100.Ksiega.gold.xml')">
+      <NuGetPackageId>Soneta.Products.Content</NuGetPackageId>
+      <NuGetPackageVersion>2210.2.2</NuGetPackageVersion>
+      <NuGetItemType>Content</NuGetItemType>
+      <Pack>false</Pack>
+      <Private>False</Private>
+      <Link>Patterns\CRM.OfertowanieKlientowi\100.Ksiega.gold.xml</Link>
+    </Content>
+    <Content Include="$(NuGetPackageRoot)soneta.products.content\2210.2.2\contentFiles\any\netstandard2.0\Patterns\CRM.OfertowanieKlientowi\100.Listy_KiP.xml" Condition="Exists('$(NuGetPackageRoot)soneta.products.content\2210.2.2\contentFiles\any\netstandard2.0\Patterns\CRM.OfertowanieKlientowi\100.Listy_KiP.xml')">
+      <NuGetPackageId>Soneta.Products.Content</NuGetPackageId>
+      <NuGetPackageVersion>2210.2.2</NuGetPackageVersion>
+      <NuGetItemType>Content</NuGetItemType>
+      <Pack>false</Pack>
+      <Private>False</Private>
+      <Link>Patterns\CRM.OfertowanieKlientowi\100.Listy_KiP.xml</Link>
+    </Content>
+    <Content Include="$(NuGetPackageRoot)soneta.products.content\2210.2.2\contentFiles\any\netstandard2.0\Patterns\CRM.OfertowanieKlientowi\101.Kadry.xml" Condition="Exists('$(NuGetPackageRoot)soneta.products.content\2210.2.2\contentFiles\any\netstandard2.0\Patterns\CRM.OfertowanieKlientowi\101.Kadry.xml')">
+      <NuGetPackageId>Soneta.Products.Content</NuGetPackageId>
+      <NuGetPackageVersion>2210.2.2</NuGetPackageVersion>
+      <NuGetItemType>Content</NuGetItemType>
+      <Pack>false</Pack>
+      <Private>False</Private>
+      <Link>Patterns\CRM.OfertowanieKlientowi\101.Kadry.xml</Link>
+    </Content>
+    <Content Include="$(NuGetPackageRoot)soneta.products.content\2210.2.2\contentFiles\any\netstandard2.0\Patterns\CRM.OfertowanieKlientowi\Cechy.xml" Condition="Exists('$(NuGetPackageRoot)soneta.products.content\2210.2.2\contentFiles\any\netstandard2.0\Patterns\CRM.OfertowanieKlientowi\Cechy.xml')">
+      <NuGetPackageId>Soneta.Products.Content</NuGetPackageId>
+      <NuGetPackageVersion>2210.2.2</NuGetPackageVersion>
+      <NuGetItemType>Content</NuGetItemType>
+      <Pack>false</Pack>
+      <Private>False</Private>
+      <Link>Patterns\CRM.OfertowanieKlientowi\Cechy.xml</Link>
+    </Content>
+    <Content Include="$(NuGetPackageRoot)soneta.products.content\2210.2.2\contentFiles\any\netstandard2.0\Patterns\CRM.OfertowanieKlientowi\Definicje aktywnosci.xml" Condition="Exists('$(NuGetPackageRoot)soneta.products.content\2210.2.2\contentFiles\any\netstandard2.0\Patterns\CRM.OfertowanieKlientowi\Definicje aktywnosci.xml')">
+      <NuGetPackageId>Soneta.Products.Content</NuGetPackageId>
+      <NuGetPackageVersion>2210.2.2</NuGetPackageVersion>
+      <NuGetItemType>Content</NuGetItemType>
+      <Pack>false</Pack>
+      <Private>False</Private>
+      <Link>Patterns\CRM.OfertowanieKlientowi\Definicje aktywnosci.xml</Link>
+    </Content>
+    <Content Include="$(NuGetPackageRoot)soneta.products.content\2210.2.2\contentFiles\any\netstandard2.0\Patterns\CRM.OfertowanieKlientowi\Foldery.xml" Condition="Exists('$(NuGetPackageRoot)soneta.products.content\2210.2.2\contentFiles\any\netstandard2.0\Patterns\CRM.OfertowanieKlientowi\Foldery.xml')">
+      <NuGetPackageId>Soneta.Products.Content</NuGetPackageId>
+      <NuGetPackageVersion>2210.2.2</NuGetPackageVersion>
+      <NuGetItemType>Content</NuGetItemType>
+      <Pack>false</Pack>
+      <Private>False</Private>
+      <Link>Patterns\CRM.OfertowanieKlientowi\Foldery.xml</Link>
+    </Content>
+    <Content Include="$(NuGetPackageRoot)soneta.products.content\2210.2.2\contentFiles\any\netstandard2.0\Patterns\CRM.OfertowanieKlientowi\Ofertowanie_pliki\boil.css" Condition="Exists('$(NuGetPackageRoot)soneta.products.content\2210.2.2\contentFiles\any\netstandard2.0\Patterns\CRM.OfertowanieKlientowi\Ofertowanie_pliki\boil.css')">
+      <NuGetPackageId>Soneta.Products.Content</NuGetPackageId>
+      <NuGetPackageVersion>2210.2.2</NuGetPackageVersion>
+      <NuGetItemType>Content</NuGetItemType>
+      <Pack>false</Pack>
+      <Private>False</Private>
+      <Link>Patterns\CRM.OfertowanieKlientowi\Ofertowanie_pliki\boil.css</Link>
+    </Content>
+    <Content Include="$(NuGetPackageRoot)soneta.products.content\2210.2.2\contentFiles\any\netstandard2.0\Patterns\CRM.OfertowanieKlientowi\Ofertowanie_pliki\bulb.png" Condition="Exists('$(NuGetPackageRoot)soneta.products.content\2210.2.2\contentFiles\any\netstandard2.0\Patterns\CRM.OfertowanieKlientowi\Ofertowanie_pliki\bulb.png')">
+      <NuGetPackageId>Soneta.Products.Content</NuGetPackageId>
+      <NuGetPackageVersion>2210.2.2</NuGetPackageVersion>
+      <NuGetItemType>Content</NuGetItemType>
+      <Pack>false</Pack>
+      <Private>False</Private>
+      <Link>Patterns\CRM.OfertowanieKlientowi\Ofertowanie_pliki\bulb.png</Link>
+    </Content>
+    <Content Include="$(NuGetPackageRoot)soneta.products.content\2210.2.2\contentFiles\any\netstandard2.0\Patterns\CRM.OfertowanieKlientowi\Ofertowanie_pliki\image004.png" Condition="Exists('$(NuGetPackageRoot)soneta.products.content\2210.2.2\contentFiles\any\netstandard2.0\Patterns\CRM.OfertowanieKlientowi\Ofertowanie_pliki\image004.png')">
+      <NuGetPackageId>Soneta.Products.Content</NuGetPackageId>
+      <NuGetPackageVersion>2210.2.2</NuGetPackageVersion>
+      <NuGetItemType>Content</NuGetItemType>
+      <Pack>false</Pack>
+      <Private>False</Private>
+      <Link>Patterns\CRM.OfertowanieKlientowi\Ofertowanie_pliki\image004.png</Link>
+    </Content>
+    <Content Include="$(NuGetPackageRoot)soneta.products.content\2210.2.2\contentFiles\any\netstandard2.0\Patterns\CRM.OfertowanieKlientowi\Ofertowanie_pliki\image005.jpg" Condition="Exists('$(NuGetPackageRoot)soneta.products.content\2210.2.2\contentFiles\any\netstandard2.0\Patterns\CRM.OfertowanieKlientowi\Ofertowanie_pliki\image005.jpg')">
+      <NuGetPackageId>Soneta.Products.Content</NuGetPackageId>
+      <NuGetPackageVersion>2210.2.2</NuGetPackageVersion>
+      <NuGetItemType>Content</NuGetItemType>
+      <Pack>false</Pack>
+      <Private>False</Private>
+      <Link>Patterns\CRM.OfertowanieKlientowi\Ofertowanie_pliki\image005.jpg</Link>
+    </Content>
+    <Content Include="$(NuGetPackageRoot)soneta.products.content\2210.2.2\contentFiles\any\netstandard2.0\Patterns\CRM.OfertowanieKlientowi\Ofertowanie_pliki\logo_enova365.png" Condition="Exists('$(NuGetPackageRoot)soneta.products.content\2210.2.2\contentFiles\any\netstandard2.0\Patterns\CRM.OfertowanieKlientowi\Ofertowanie_pliki\logo_enova365.png')">
+      <NuGetPackageId>Soneta.Products.Content</NuGetPackageId>
+      <NuGetPackageVersion>2210.2.2</NuGetPackageVersion>
+      <NuGetItemType>Content</NuGetItemType>
+      <Pack>false</Pack>
+      <Private>False</Private>
+      <Link>Patterns\CRM.OfertowanieKlientowi\Ofertowanie_pliki\logo_enova365.png</Link>
+    </Content>
+    <Content Include="$(NuGetPackageRoot)soneta.products.content\2210.2.2\contentFiles\any\netstandard2.0\Patterns\CRM.OfertowanieKlientowi\Ofertowanie_pliki\style.css" Condition="Exists('$(NuGetPackageRoot)soneta.products.content\2210.2.2\contentFiles\any\netstandard2.0\Patterns\CRM.OfertowanieKlientowi\Ofertowanie_pliki\style.css')">
+      <NuGetPackageId>Soneta.Products.Content</NuGetPackageId>
+      <NuGetPackageVersion>2210.2.2</NuGetPackageVersion>
+      <NuGetItemType>Content</NuGetItemType>
+      <Pack>false</Pack>
+      <Private>False</Private>
+      <Link>Patterns\CRM.OfertowanieKlientowi\Ofertowanie_pliki\style.css</Link>
+    </Content>
+    <Content Include="$(NuGetPackageRoot)soneta.products.content\2210.2.2\contentFiles\any\netstandard2.0\Patterns\CRM.OfertowanieKlientowi\Task.xml" Condition="Exists('$(NuGetPackageRoot)soneta.products.content\2210.2.2\contentFiles\any\netstandard2.0\Patterns\CRM.OfertowanieKlientowi\Task.xml')">
+      <NuGetPackageId>Soneta.Products.Content</NuGetPackageId>
+      <NuGetPackageVersion>2210.2.2</NuGetPackageVersion>
+      <NuGetItemType>Content</NuGetItemType>
+      <Pack>false</Pack>
+      <Private>False</Private>
+      <Link>Patterns\CRM.OfertowanieKlientowi\Task.xml</Link>
+    </Content>
+    <Content Include="$(NuGetPackageRoot)soneta.products.content\2210.2.2\contentFiles\any\netstandard2.0\Patterns\CRM.OfertowanieKlientowi\index.html" Condition="Exists('$(NuGetPackageRoot)soneta.products.content\2210.2.2\contentFiles\any\netstandard2.0\Patterns\CRM.OfertowanieKlientowi\index.html')">
+      <NuGetPackageId>Soneta.Products.Content</NuGetPackageId>
+      <NuGetPackageVersion>2210.2.2</NuGetPackageVersion>
+      <NuGetItemType>Content</NuGetItemType>
+      <Pack>false</Pack>
+      <Private>False</Private>
+      <Link>Patterns\CRM.OfertowanieKlientowi\index.html</Link>
+    </Content>
+    <Content Include="$(NuGetPackageRoot)soneta.products.content\2210.2.2\contentFiles\any\netstandard2.0\Patterns\CRM.PozyskanieKlienta\001.Podstawy.xml" Condition="Exists('$(NuGetPackageRoot)soneta.products.content\2210.2.2\contentFiles\any\netstandard2.0\Patterns\CRM.PozyskanieKlienta\001.Podstawy.xml')">
+      <NuGetPackageId>Soneta.Products.Content</NuGetPackageId>
+      <NuGetPackageVersion>2210.2.2</NuGetPackageVersion>
+      <NuGetItemType>Content</NuGetItemType>
+      <Pack>false</Pack>
+      <Private>False</Private>
+      <Link>Patterns\CRM.PozyskanieKlienta\001.Podstawy.xml</Link>
+    </Content>
+    <Content Include="$(NuGetPackageRoot)soneta.products.content\2210.2.2\contentFiles\any\netstandard2.0\Patterns\CRM.PozyskanieKlienta\010.Kontrahenci.xml" Condition="Exists('$(NuGetPackageRoot)soneta.products.content\2210.2.2\contentFiles\any\netstandard2.0\Patterns\CRM.PozyskanieKlienta\010.Kontrahenci.xml')">
+      <NuGetPackageId>Soneta.Products.Content</NuGetPackageId>
+      <NuGetPackageVersion>2210.2.2</NuGetPackageVersion>
+      <NuGetItemType>Content</NuGetItemType>
+      <Pack>false</Pack>
+      <Private>False</Private>
+      <Link>Patterns\CRM.PozyskanieKlienta\010.Kontrahenci.xml</Link>
+    </Content>
+    <Content Include="$(NuGetPackageRoot)soneta.products.content\2210.2.2\contentFiles\any\netstandard2.0\Patterns\CRM.PozyskanieKlienta\100.Handel.xml" Condition="Exists('$(NuGetPackageRoot)soneta.products.content\2210.2.2\contentFiles\any\netstandard2.0\Patterns\CRM.PozyskanieKlienta\100.Handel.xml')">
+      <NuGetPackageId>Soneta.Products.Content</NuGetPackageId>
+      <NuGetPackageVersion>2210.2.2</NuGetPackageVersion>
+      <NuGetItemType>Content</NuGetItemType>
+      <Pack>false</Pack>
+      <Private>False</Private>
+      <Link>Patterns\CRM.PozyskanieKlienta\100.Handel.xml</Link>
+    </Content>
+    <Content Include="$(NuGetPackageRoot)soneta.products.content\2210.2.2\contentFiles\any\netstandard2.0\Patterns\CRM.PozyskanieKlienta\100.Kadry.gold.xml" Condition="Exists('$(NuGetPackageRoot)soneta.products.content\2210.2.2\contentFiles\any\netstandard2.0\Patterns\CRM.PozyskanieKlienta\100.Kadry.gold.xml')">
+      <NuGetPackageId>Soneta.Products.Content</NuGetPackageId>
+      <NuGetPackageVersion>2210.2.2</NuGetPackageVersion>
+      <NuGetItemType>Content</NuGetItemType>
+      <Pack>false</Pack>
+      <Private>False</Private>
+      <Link>Patterns\CRM.PozyskanieKlienta\100.Kadry.gold.xml</Link>
+    </Content>
+    <Content Include="$(NuGetPackageRoot)soneta.products.content\2210.2.2\contentFiles\any\netstandard2.0\Patterns\CRM.PozyskanieKlienta\100.Kadry.silver.xml" Condition="Exists('$(NuGetPackageRoot)soneta.products.content\2210.2.2\contentFiles\any\netstandard2.0\Patterns\CRM.PozyskanieKlienta\100.Kadry.silver.xml')">
+      <NuGetPackageId>Soneta.Products.Content</NuGetPackageId>
+      <NuGetPackageVersion>2210.2.2</NuGetPackageVersion>
+      <NuGetItemType>Content</NuGetItemType>
+      <Pack>false</Pack>
+      <Private>False</Private>
+      <Link>Patterns\CRM.PozyskanieKlienta\100.Kadry.silver.xml</Link>
+    </Content>
+    <Content Include="$(NuGetPackageRoot)soneta.products.content\2210.2.2\contentFiles\any\netstandard2.0\Patterns\CRM.PozyskanieKlienta\100.Ksiega.gold.xml" Condition="Exists('$(NuGetPackageRoot)soneta.products.content\2210.2.2\contentFiles\any\netstandard2.0\Patterns\CRM.PozyskanieKlienta\100.Ksiega.gold.xml')">
+      <NuGetPackageId>Soneta.Products.Content</NuGetPackageId>
+      <NuGetPackageVersion>2210.2.2</NuGetPackageVersion>
+      <NuGetItemType>Content</NuGetItemType>
+      <Pack>false</Pack>
+      <Private>False</Private>
+      <Link>Patterns\CRM.PozyskanieKlienta\100.Ksiega.gold.xml</Link>
+    </Content>
+    <Content Include="$(NuGetPackageRoot)soneta.products.content\2210.2.2\contentFiles\any\netstandard2.0\Patterns\CRM.PozyskanieKlienta\200.CRM.xml" Condition="Exists('$(NuGetPackageRoot)soneta.products.content\2210.2.2\contentFiles\any\netstandard2.0\Patterns\CRM.PozyskanieKlienta\200.CRM.xml')">
+      <NuGetPackageId>Soneta.Products.Content</NuGetPackageId>
+      <NuGetPackageVersion>2210.2.2</NuGetPackageVersion>
+      <NuGetItemType>Content</NuGetItemType>
+      <Pack>false</Pack>
+      <Private>False</Private>
+      <Link>Patterns\CRM.PozyskanieKlienta\200.CRM.xml</Link>
+    </Content>
+    <Content Include="$(NuGetPackageRoot)soneta.products.content\2210.2.2\contentFiles\any\netstandard2.0\Patterns\CRM.PozyskanieKlienta\index.html" Condition="Exists('$(NuGetPackageRoot)soneta.products.content\2210.2.2\contentFiles\any\netstandard2.0\Patterns\CRM.PozyskanieKlienta\index.html')">
+      <NuGetPackageId>Soneta.Products.Content</NuGetPackageId>
+      <NuGetPackageVersion>2210.2.2</NuGetPackageVersion>
+      <NuGetItemType>Content</NuGetItemType>
+      <Pack>false</Pack>
+      <Private>False</Private>
+      <Link>Patterns\CRM.PozyskanieKlienta\index.html</Link>
+    </Content>
+    <Content Include="$(NuGetPackageRoot)soneta.products.content\2210.2.2\contentFiles\any\netstandard2.0\Patterns\CRM.PozyskanieKlienta\index_pliki\boil.css" Condition="Exists('$(NuGetPackageRoot)soneta.products.content\2210.2.2\contentFiles\any\netstandard2.0\Patterns\CRM.PozyskanieKlienta\index_pliki\boil.css')">
+      <NuGetPackageId>Soneta.Products.Content</NuGetPackageId>
+      <NuGetPackageVersion>2210.2.2</NuGetPackageVersion>
+      <NuGetItemType>Content</NuGetItemType>
+      <Pack>false</Pack>
+      <Private>False</Private>
+      <Link>Patterns\CRM.PozyskanieKlienta\index_pliki\boil.css</Link>
+    </Content>
+    <Content Include="$(NuGetPackageRoot)soneta.products.content\2210.2.2\contentFiles\any\netstandard2.0\Patterns\CRM.PozyskanieKlienta\index_pliki\bulb.png" Condition="Exists('$(NuGetPackageRoot)soneta.products.content\2210.2.2\contentFiles\any\netstandard2.0\Patterns\CRM.PozyskanieKlienta\index_pliki\bulb.png')">
+      <NuGetPackageId>Soneta.Products.Content</NuGetPackageId>
+      <NuGetPackageVersion>2210.2.2</NuGetPackageVersion>
+      <NuGetItemType>Content</NuGetItemType>
+      <Pack>false</Pack>
+      <Private>False</Private>
+      <Link>Patterns\CRM.PozyskanieKlienta\index_pliki\bulb.png</Link>
+    </Content>
+    <Content Include="$(NuGetPackageRoot)soneta.products.content\2210.2.2\contentFiles\any\netstandard2.0\Patterns\CRM.PozyskanieKlienta\index_pliki\image004.png" Condition="Exists('$(NuGetPackageRoot)soneta.products.content\2210.2.2\contentFiles\any\netstandard2.0\Patterns\CRM.PozyskanieKlienta\index_pliki\image004.png')">
+      <NuGetPackageId>Soneta.Products.Content</NuGetPackageId>
+      <NuGetPackageVersion>2210.2.2</NuGetPackageVersion>
+      <NuGetItemType>Content</NuGetItemType>
+      <Pack>false</Pack>
+      <Private>False</Private>
+      <Link>Patterns\CRM.PozyskanieKlienta\index_pliki\image004.png</Link>
+    </Content>
+    <Content Include="$(NuGetPackageRoot)soneta.products.content\2210.2.2\contentFiles\any\netstandard2.0\Patterns\CRM.PozyskanieKlienta\index_pliki\image005.jpg" Condition="Exists('$(NuGetPackageRoot)soneta.products.content\2210.2.2\contentFiles\any\netstandard2.0\Patterns\CRM.PozyskanieKlienta\index_pliki\image005.jpg')">
+      <NuGetPackageId>Soneta.Products.Content</NuGetPackageId>
+      <NuGetPackageVersion>2210.2.2</NuGetPackageVersion>
+      <NuGetItemType>Content</NuGetItemType>
+      <Pack>false</Pack>
+      <Private>False</Private>
+      <Link>Patterns\CRM.PozyskanieKlienta\index_pliki\image005.jpg</Link>
+    </Content>
+    <Content Include="$(NuGetPackageRoot)soneta.products.content\2210.2.2\contentFiles\any\netstandard2.0\Patterns\CRM.PozyskanieKlienta\index_pliki\logo_enova365.png" Condition="Exists('$(NuGetPackageRoot)soneta.products.content\2210.2.2\contentFiles\any\netstandard2.0\Patterns\CRM.PozyskanieKlienta\index_pliki\logo_enova365.png')">
+      <NuGetPackageId>Soneta.Products.Content</NuGetPackageId>
+      <NuGetPackageVersion>2210.2.2</NuGetPackageVersion>
+      <NuGetItemType>Content</NuGetItemType>
+      <Pack>false</Pack>
+      <Private>False</Private>
+      <Link>Patterns\CRM.PozyskanieKlienta\index_pliki\logo_enova365.png</Link>
+    </Content>
+    <Content Include="$(NuGetPackageRoot)soneta.products.content\2210.2.2\contentFiles\any\netstandard2.0\Patterns\CRM.PozyskanieKlienta\index_pliki\style.css" Condition="Exists('$(NuGetPackageRoot)soneta.products.content\2210.2.2\contentFiles\any\netstandard2.0\Patterns\CRM.PozyskanieKlienta\index_pliki\style.css')">
+      <NuGetPackageId>Soneta.Products.Content</NuGetPackageId>
+      <NuGetPackageVersion>2210.2.2</NuGetPackageVersion>
+      <NuGetItemType>Content</NuGetItemType>
+      <Pack>false</Pack>
+      <Private>False</Private>
+      <Link>Patterns\CRM.PozyskanieKlienta\index_pliki\style.css</Link>
+    </Content>
+    <Content Include="$(NuGetPackageRoot)soneta.products.content\2210.2.2\contentFiles\any\netstandard2.0\Patterns\HANDEL.HurtowniaMotoryzacyjna\001.Podstawy.xml" Condition="Exists('$(NuGetPackageRoot)soneta.products.content\2210.2.2\contentFiles\any\netstandard2.0\Patterns\HANDEL.HurtowniaMotoryzacyjna\001.Podstawy.xml')">
+      <NuGetPackageId>Soneta.Products.Content</NuGetPackageId>
+      <NuGetPackageVersion>2210.2.2</NuGetPackageVersion>
+      <NuGetItemType>Content</NuGetItemType>
+      <Pack>false</Pack>
+      <Private>False</Private>
+      <Link>Patterns\HANDEL.HurtowniaMotoryzacyjna\001.Podstawy.xml</Link>
+    </Content>
+    <Content Include="$(NuGetPackageRoot)soneta.products.content\2210.2.2\contentFiles\any\netstandard2.0\Patterns\HANDEL.HurtowniaMotoryzacyjna\002.Podstawy.gold.xml" Condition="Exists('$(NuGetPackageRoot)soneta.products.content\2210.2.2\contentFiles\any\netstandard2.0\Patterns\HANDEL.HurtowniaMotoryzacyjna\002.Podstawy.gold.xml')">
+      <NuGetPackageId>Soneta.Products.Content</NuGetPackageId>
+      <NuGetPackageVersion>2210.2.2</NuGetPackageVersion>
+      <NuGetItemType>Content</NuGetItemType>
+      <Pack>false</Pack>
+      <Private>False</Private>
+      <Link>Patterns\HANDEL.HurtowniaMotoryzacyjna\002.Podstawy.gold.xml</Link>
+    </Content>
+    <Content Include="$(NuGetPackageRoot)soneta.products.content\2210.2.2\contentFiles\any\netstandard2.0\Patterns\HANDEL.HurtowniaMotoryzacyjna\002.Podstawy.silver.xml" Condition="Exists('$(NuGetPackageRoot)soneta.products.content\2210.2.2\contentFiles\any\netstandard2.0\Patterns\HANDEL.HurtowniaMotoryzacyjna\002.Podstawy.silver.xml')">
+      <NuGetPackageId>Soneta.Products.Content</NuGetPackageId>
+      <NuGetPackageVersion>2210.2.2</NuGetPackageVersion>
+      <NuGetItemType>Content</NuGetItemType>
+      <Pack>false</Pack>
+      <Private>False</Private>
+      <Link>Patterns\HANDEL.HurtowniaMotoryzacyjna\002.Podstawy.silver.xml</Link>
+    </Content>
+    <Content Include="$(NuGetPackageRoot)soneta.products.content\2210.2.2\contentFiles\any\netstandard2.0\Patterns\HANDEL.HurtowniaMotoryzacyjna\100.Kadry.gold.xml" Condition="Exists('$(NuGetPackageRoot)soneta.products.content\2210.2.2\contentFiles\any\netstandard2.0\Patterns\HANDEL.HurtowniaMotoryzacyjna\100.Kadry.gold.xml')">
+      <NuGetPackageId>Soneta.Products.Content</NuGetPackageId>
+      <NuGetPackageVersion>2210.2.2</NuGetPackageVersion>
+      <NuGetItemType>Content</NuGetItemType>
+      <Pack>false</Pack>
+      <Private>False</Private>
+      <Link>Patterns\HANDEL.HurtowniaMotoryzacyjna\100.Kadry.gold.xml</Link>
+    </Content>
+    <Content Include="$(NuGetPackageRoot)soneta.products.content\2210.2.2\contentFiles\any\netstandard2.0\Patterns\HANDEL.HurtowniaMotoryzacyjna\100.Kadry.silver.xml" Condition="Exists('$(NuGetPackageRoot)soneta.products.content\2210.2.2\contentFiles\any\netstandard2.0\Patterns\HANDEL.HurtowniaMotoryzacyjna\100.Kadry.silver.xml')">
+      <NuGetPackageId>Soneta.Products.Content</NuGetPackageId>
+      <NuGetPackageVersion>2210.2.2</NuGetPackageVersion>
+      <NuGetItemType>Content</NuGetItemType>
+      <Pack>false</Pack>
+      <Private>False</Private>
+      <Link>Patterns\HANDEL.HurtowniaMotoryzacyjna\100.Kadry.silver.xml</Link>
+    </Content>
+    <Content Include="$(NuGetPackageRoot)soneta.products.content\2210.2.2\contentFiles\any\netstandard2.0\Patterns\HANDEL.HurtowniaMotoryzacyjna\100.Ksiega.gold.TylkoCzworki.xml" Condition="Exists('$(NuGetPackageRoot)soneta.products.content\2210.2.2\contentFiles\any\netstandard2.0\Patterns\HANDEL.HurtowniaMotoryzacyjna\100.Ksiega.gold.TylkoCzworki.xml')">
+      <NuGetPackageId>Soneta.Products.Content</NuGetPackageId>
+      <NuGetPackageVersion>2210.2.2</NuGetPackageVersion>
+      <NuGetItemType>Content</NuGetItemType>
+      <Pack>false</Pack>
+      <Private>False</Private>
+      <Link>Patterns\HANDEL.HurtowniaMotoryzacyjna\100.Ksiega.gold.TylkoCzworki.xml</Link>
+    </Content>
+    <Content Include="$(NuGetPackageRoot)soneta.products.content\2210.2.2\contentFiles\any\netstandard2.0\Patterns\HANDEL.HurtowniaMotoryzacyjna\101.BazaMoto.xml" Condition="Exists('$(NuGetPackageRoot)soneta.products.content\2210.2.2\contentFiles\any\netstandard2.0\Patterns\HANDEL.HurtowniaMotoryzacyjna\101.BazaMoto.xml')">
+      <NuGetPackageId>Soneta.Products.Content</NuGetPackageId>
+      <NuGetPackageVersion>2210.2.2</NuGetPackageVersion>
+      <NuGetItemType>Content</NuGetItemType>
+      <Pack>false</Pack>
+      <Private>False</Private>
+      <Link>Patterns\HANDEL.HurtowniaMotoryzacyjna\101.BazaMoto.xml</Link>
+    </Content>
+    <Content Include="$(NuGetPackageRoot)soneta.products.content\2210.2.2\contentFiles\any\netstandard2.0\Patterns\HANDEL.HurtowniaMotoryzacyjna\101.BazaMoto_Dokumenty.xml" Condition="Exists('$(NuGetPackageRoot)soneta.products.content\2210.2.2\contentFiles\any\netstandard2.0\Patterns\HANDEL.HurtowniaMotoryzacyjna\101.BazaMoto_Dokumenty.xml')">
+      <NuGetPackageId>Soneta.Products.Content</NuGetPackageId>
+      <NuGetPackageVersion>2210.2.2</NuGetPackageVersion>
+      <NuGetItemType>Content</NuGetItemType>
+      <Pack>false</Pack>
+      <Private>False</Private>
+      <Link>Patterns\HANDEL.HurtowniaMotoryzacyjna\101.BazaMoto_Dokumenty.xml</Link>
+    </Content>
+    <Content Include="$(NuGetPackageRoot)soneta.products.content\2210.2.2\contentFiles\any\netstandard2.0\Patterns\HANDEL.HurtowniaMotoryzacyjna\101.BazaMoto_Listy.xml" Condition="Exists('$(NuGetPackageRoot)soneta.products.content\2210.2.2\contentFiles\any\netstandard2.0\Patterns\HANDEL.HurtowniaMotoryzacyjna\101.BazaMoto_Listy.xml')">
+      <NuGetPackageId>Soneta.Products.Content</NuGetPackageId>
+      <NuGetPackageVersion>2210.2.2</NuGetPackageVersion>
+      <NuGetItemType>Content</NuGetItemType>
+      <Pack>false</Pack>
+      <Private>False</Private>
+      <Link>Patterns\HANDEL.HurtowniaMotoryzacyjna\101.BazaMoto_Listy.xml</Link>
+    </Content>
+    <Content Include="$(NuGetPackageRoot)soneta.products.content\2210.2.2\contentFiles\any\netstandard2.0\Patterns\HANDEL.HurtowniaMotoryzacyjna\101.Kadry.xml" Condition="Exists('$(NuGetPackageRoot)soneta.products.content\2210.2.2\contentFiles\any\netstandard2.0\Patterns\HANDEL.HurtowniaMotoryzacyjna\101.Kadry.xml')">
+      <NuGetPackageId>Soneta.Products.Content</NuGetPackageId>
+      <NuGetPackageVersion>2210.2.2</NuGetPackageVersion>
+      <NuGetItemType>Content</NuGetItemType>
+      <Pack>false</Pack>
+      <Private>False</Private>
+      <Link>Patterns\HANDEL.HurtowniaMotoryzacyjna\101.Kadry.xml</Link>
+    </Content>
+    <Content Include="$(NuGetPackageRoot)soneta.products.content\2210.2.2\contentFiles\any\netstandard2.0\Patterns\HANDEL.HurtowniaMotoryzacyjna\index.html" Condition="Exists('$(NuGetPackageRoot)soneta.products.content\2210.2.2\contentFiles\any\netstandard2.0\Patterns\HANDEL.HurtowniaMotoryzacyjna\index.html')">
+      <NuGetPackageId>Soneta.Products.Content</NuGetPackageId>
+      <NuGetPackageVersion>2210.2.2</NuGetPackageVersion>
+      <NuGetItemType>Content</NuGetItemType>
+      <Pack>false</Pack>
+      <Private>False</Private>
+      <Link>Patterns\HANDEL.HurtowniaMotoryzacyjna\index.html</Link>
+    </Content>
+    <Content Include="$(NuGetPackageRoot)soneta.products.content\2210.2.2\contentFiles\any\netstandard2.0\Patterns\HANDEL.HurtowniaMotoryzacyjna\index_pliki\boil.css" Condition="Exists('$(NuGetPackageRoot)soneta.products.content\2210.2.2\contentFiles\any\netstandard2.0\Patterns\HANDEL.HurtowniaMotoryzacyjna\index_pliki\boil.css')">
+      <NuGetPackageId>Soneta.Products.Content</NuGetPackageId>
+      <NuGetPackageVersion>2210.2.2</NuGetPackageVersion>
+      <NuGetItemType>Content</NuGetItemType>
+      <Pack>false</Pack>
+      <Private>False</Private>
+      <Link>Patterns\HANDEL.HurtowniaMotoryzacyjna\index_pliki\boil.css</Link>
+    </Content>
+    <Content Include="$(NuGetPackageRoot)soneta.products.content\2210.2.2\contentFiles\any\netstandard2.0\Patterns\HANDEL.HurtowniaMotoryzacyjna\index_pliki\bulb.png" Condition="Exists('$(NuGetPackageRoot)soneta.products.content\2210.2.2\contentFiles\any\netstandard2.0\Patterns\HANDEL.HurtowniaMotoryzacyjna\index_pliki\bulb.png')">
+      <NuGetPackageId>Soneta.Products.Content</NuGetPackageId>
+      <NuGetPackageVersion>2210.2.2</NuGetPackageVersion>
+      <NuGetItemType>Content</NuGetItemType>
+      <Pack>false</Pack>
+      <Private>False</Private>
+      <Link>Patterns\HANDEL.HurtowniaMotoryzacyjna\index_pliki\bulb.png</Link>
+    </Content>
+    <Content Include="$(NuGetPackageRoot)soneta.products.content\2210.2.2\contentFiles\any\netstandard2.0\Patterns\HANDEL.HurtowniaMotoryzacyjna\index_pliki\colorschememapping.xml" Condition="Exists('$(NuGetPackageRoot)soneta.products.content\2210.2.2\contentFiles\any\netstandard2.0\Patterns\HANDEL.HurtowniaMotoryzacyjna\index_pliki\colorschememapping.xml')">
+      <NuGetPackageId>Soneta.Products.Content</NuGetPackageId>
+      <NuGetPackageVersion>2210.2.2</NuGetPackageVersion>
+      <NuGetItemType>Content</NuGetItemType>
+      <Pack>false</Pack>
+      <Private>False</Private>
+      <Link>Patterns\HANDEL.HurtowniaMotoryzacyjna\index_pliki\colorschememapping.xml</Link>
+    </Content>
+    <Content Include="$(NuGetPackageRoot)soneta.products.content\2210.2.2\contentFiles\any\netstandard2.0\Patterns\HANDEL.HurtowniaMotoryzacyjna\index_pliki\filelist.xml" Condition="Exists('$(NuGetPackageRoot)soneta.products.content\2210.2.2\contentFiles\any\netstandard2.0\Patterns\HANDEL.HurtowniaMotoryzacyjna\index_pliki\filelist.xml')">
+      <NuGetPackageId>Soneta.Products.Content</NuGetPackageId>
+      <NuGetPackageVersion>2210.2.2</NuGetPackageVersion>
+      <NuGetItemType>Content</NuGetItemType>
+      <Pack>false</Pack>
+      <Private>False</Private>
+      <Link>Patterns\HANDEL.HurtowniaMotoryzacyjna\index_pliki\filelist.xml</Link>
+    </Content>
+    <Content Include="$(NuGetPackageRoot)soneta.products.content\2210.2.2\contentFiles\any\netstandard2.0\Patterns\HANDEL.HurtowniaMotoryzacyjna\index_pliki\header.html" Condition="Exists('$(NuGetPackageRoot)soneta.products.content\2210.2.2\contentFiles\any\netstandard2.0\Patterns\HANDEL.HurtowniaMotoryzacyjna\index_pliki\header.html')">
+      <NuGetPackageId>Soneta.Products.Content</NuGetPackageId>
+      <NuGetPackageVersion>2210.2.2</NuGetPackageVersion>
+      <NuGetItemType>Content</NuGetItemType>
+      <Pack>false</Pack>
+      <Private>False</Private>
+      <Link>Patterns\HANDEL.HurtowniaMotoryzacyjna\index_pliki\header.html</Link>
+    </Content>
+    <Content Include="$(NuGetPackageRoot)soneta.products.content\2210.2.2\contentFiles\any\netstandard2.0\Patterns\HANDEL.HurtowniaMotoryzacyjna\index_pliki\image001.jpg" Condition="Exists('$(NuGetPackageRoot)soneta.products.content\2210.2.2\contentFiles\any\netstandard2.0\Patterns\HANDEL.HurtowniaMotoryzacyjna\index_pliki\image001.jpg')">
+      <NuGetPackageId>Soneta.Products.Content</NuGetPackageId>
+      <NuGetPackageVersion>2210.2.2</NuGetPackageVersion>
+      <NuGetItemType>Content</NuGetItemType>
+      <Pack>false</Pack>
+      <Private>False</Private>
+      <Link>Patterns\HANDEL.HurtowniaMotoryzacyjna\index_pliki\image001.jpg</Link>
+    </Content>
+    <Content Include="$(NuGetPackageRoot)soneta.products.content\2210.2.2\contentFiles\any\netstandard2.0\Patterns\HANDEL.HurtowniaMotoryzacyjna\index_pliki\image002.png" Condition="Exists('$(NuGetPackageRoot)soneta.products.content\2210.2.2\contentFiles\any\netstandard2.0\Patterns\HANDEL.HurtowniaMotoryzacyjna\index_pliki\image002.png')">
+      <NuGetPackageId>Soneta.Products.Content</NuGetPackageId>
+      <NuGetPackageVersion>2210.2.2</NuGetPackageVersion>
+      <NuGetItemType>Content</NuGetItemType>
+      <Pack>false</Pack>
+      <Private>False</Private>
+      <Link>Patterns\HANDEL.HurtowniaMotoryzacyjna\index_pliki\image002.png</Link>
+    </Content>
+    <Content Include="$(NuGetPackageRoot)soneta.products.content\2210.2.2\contentFiles\any\netstandard2.0\Patterns\HANDEL.HurtowniaMotoryzacyjna\index_pliki\image003.png" Condition="Exists('$(NuGetPackageRoot)soneta.products.content\2210.2.2\contentFiles\any\netstandard2.0\Patterns\HANDEL.HurtowniaMotoryzacyjna\index_pliki\image003.png')">
+      <NuGetPackageId>Soneta.Products.Content</NuGetPackageId>
+      <NuGetPackageVersion>2210.2.2</NuGetPackageVersion>
+      <NuGetItemType>Content</NuGetItemType>
+      <Pack>false</Pack>
+      <Private>False</Private>
+      <Link>Patterns\HANDEL.HurtowniaMotoryzacyjna\index_pliki\image003.png</Link>
+    </Content>
+    <Content Include="$(NuGetPackageRoot)soneta.products.content\2210.2.2\contentFiles\any\netstandard2.0\Patterns\HANDEL.HurtowniaMotoryzacyjna\index_pliki\item0001.xml" Condition="Exists('$(NuGetPackageRoot)soneta.products.content\2210.2.2\contentFiles\any\netstandard2.0\Patterns\HANDEL.HurtowniaMotoryzacyjna\index_pliki\item0001.xml')">
+      <NuGetPackageId>Soneta.Products.Content</NuGetPackageId>
+      <NuGetPackageVersion>2210.2.2</NuGetPackageVersion>
+      <NuGetItemType>Content</NuGetItemType>
+      <Pack>false</Pack>
+      <Private>False</Private>
+      <Link>Patterns\HANDEL.HurtowniaMotoryzacyjna\index_pliki\item0001.xml</Link>
+    </Content>
+    <Content Include="$(NuGetPackageRoot)soneta.products.content\2210.2.2\contentFiles\any\netstandard2.0\Patterns\HANDEL.HurtowniaMotoryzacyjna\index_pliki\logo_enova365.png" Condition="Exists('$(NuGetPackageRoot)soneta.products.content\2210.2.2\contentFiles\any\netstandard2.0\Patterns\HANDEL.HurtowniaMotoryzacyjna\index_pliki\logo_enova365.png')">
+      <NuGetPackageId>Soneta.Products.Content</NuGetPackageId>
+      <NuGetPackageVersion>2210.2.2</NuGetPackageVersion>
+      <NuGetItemType>Content</NuGetItemType>
+      <Pack>false</Pack>
+      <Private>False</Private>
+      <Link>Patterns\HANDEL.HurtowniaMotoryzacyjna\index_pliki\logo_enova365.png</Link>
+    </Content>
+    <Content Include="$(NuGetPackageRoot)soneta.products.content\2210.2.2\contentFiles\any\netstandard2.0\Patterns\HANDEL.HurtowniaMotoryzacyjna\index_pliki\props002.xml" Condition="Exists('$(NuGetPackageRoot)soneta.products.content\2210.2.2\contentFiles\any\netstandard2.0\Patterns\HANDEL.HurtowniaMotoryzacyjna\index_pliki\props002.xml')">
+      <NuGetPackageId>Soneta.Products.Content</NuGetPackageId>
+      <NuGetPackageVersion>2210.2.2</NuGetPackageVersion>
+      <NuGetItemType>Content</NuGetItemType>
+      <Pack>false</Pack>
+      <Private>False</Private>
+      <Link>Patterns\HANDEL.HurtowniaMotoryzacyjna\index_pliki\props002.xml</Link>
+    </Content>
+    <Content Include="$(NuGetPackageRoot)soneta.products.content\2210.2.2\contentFiles\any\netstandard2.0\Patterns\HANDEL.HurtowniaMotoryzacyjna\index_pliki\style.css" Condition="Exists('$(NuGetPackageRoot)soneta.products.content\2210.2.2\contentFiles\any\netstandard2.0\Patterns\HANDEL.HurtowniaMotoryzacyjna\index_pliki\style.css')">
+      <NuGetPackageId>Soneta.Products.Content</NuGetPackageId>
+      <NuGetPackageVersion>2210.2.2</NuGetPackageVersion>
+      <NuGetItemType>Content</NuGetItemType>
+      <Pack>false</Pack>
+      <Private>False</Private>
+      <Link>Patterns\HANDEL.HurtowniaMotoryzacyjna\index_pliki\style.css</Link>
+    </Content>
+    <Content Include="$(NuGetPackageRoot)soneta.products.content\2210.2.2\contentFiles\any\netstandard2.0\Patterns\HANDEL.HurtowniaMotoryzacyjna\index_pliki\themedata.thmx" Condition="Exists('$(NuGetPackageRoot)soneta.products.content\2210.2.2\contentFiles\any\netstandard2.0\Patterns\HANDEL.HurtowniaMotoryzacyjna\index_pliki\themedata.thmx')">
+      <NuGetPackageId>Soneta.Products.Content</NuGetPackageId>
+      <NuGetPackageVersion>2210.2.2</NuGetPackageVersion>
+      <NuGetItemType>Content</NuGetItemType>
+      <Pack>false</Pack>
+      <Private>False</Private>
+      <Link>Patterns\HANDEL.HurtowniaMotoryzacyjna\index_pliki\themedata.thmx</Link>
+    </Content>
+    <Content Include="$(NuGetPackageRoot)soneta.products.content\2210.2.2\contentFiles\any\netstandard2.0\Patterns\KADRY.Pulpity HR\001.Podstawy.xml" Condition="Exists('$(NuGetPackageRoot)soneta.products.content\2210.2.2\contentFiles\any\netstandard2.0\Patterns\KADRY.Pulpity HR\001.Podstawy.xml')">
+      <NuGetPackageId>Soneta.Products.Content</NuGetPackageId>
+      <NuGetPackageVersion>2210.2.2</NuGetPackageVersion>
+      <NuGetItemType>Content</NuGetItemType>
+      <Pack>false</Pack>
+      <Private>False</Private>
+      <Link>Patterns\KADRY.Pulpity HR\001.Podstawy.xml</Link>
+    </Content>
+    <Content Include="$(NuGetPackageRoot)soneta.products.content\2210.2.2\contentFiles\any\netstandard2.0\Patterns\KADRY.Pulpity HR\002.Podstawy.gold.xml" Condition="Exists('$(NuGetPackageRoot)soneta.products.content\2210.2.2\contentFiles\any\netstandard2.0\Patterns\KADRY.Pulpity HR\002.Podstawy.gold.xml')">
+      <NuGetPackageId>Soneta.Products.Content</NuGetPackageId>
+      <NuGetPackageVersion>2210.2.2</NuGetPackageVersion>
+      <NuGetItemType>Content</NuGetItemType>
+      <Pack>false</Pack>
+      <Private>False</Private>
+      <Link>Patterns\KADRY.Pulpity HR\002.Podstawy.gold.xml</Link>
+    </Content>
+    <Content Include="$(NuGetPackageRoot)soneta.products.content\2210.2.2\contentFiles\any\netstandard2.0\Patterns\KADRY.Pulpity HR\003.Kadry.gold.xml" Condition="Exists('$(NuGetPackageRoot)soneta.products.content\2210.2.2\contentFiles\any\netstandard2.0\Patterns\KADRY.Pulpity HR\003.Kadry.gold.xml')">
+      <NuGetPackageId>Soneta.Products.Content</NuGetPackageId>
+      <NuGetPackageVersion>2210.2.2</NuGetPackageVersion>
+      <NuGetItemType>Content</NuGetItemType>
+      <Pack>false</Pack>
+      <Private>False</Private>
+      <Link>Patterns\KADRY.Pulpity HR\003.Kadry.gold.xml</Link>
+    </Content>
+    <Content Include="$(NuGetPackageRoot)soneta.products.content\2210.2.2\contentFiles\any\netstandard2.0\Patterns\KADRY.Pulpity HR\004.WebUser.xml" Condition="Exists('$(NuGetPackageRoot)soneta.products.content\2210.2.2\contentFiles\any\netstandard2.0\Patterns\KADRY.Pulpity HR\004.WebUser.xml')">
+      <NuGetPackageId>Soneta.Products.Content</NuGetPackageId>
+      <NuGetPackageVersion>2210.2.2</NuGetPackageVersion>
+      <NuGetItemType>Content</NuGetItemType>
+      <Pack>false</Pack>
+      <Private>False</Private>
+      <Link>Patterns\KADRY.Pulpity HR\004.WebUser.xml</Link>
+    </Content>
+    <Content Include="$(NuGetPackageRoot)soneta.products.content\2210.2.2\contentFiles\any\netstandard2.0\Patterns\KADRY.Pulpity HR\005.WebProfile.xml" Condition="Exists('$(NuGetPackageRoot)soneta.products.content\2210.2.2\contentFiles\any\netstandard2.0\Patterns\KADRY.Pulpity HR\005.WebProfile.xml')">
+      <NuGetPackageId>Soneta.Products.Content</NuGetPackageId>
+      <NuGetPackageVersion>2210.2.2</NuGetPackageVersion>
+      <NuGetItemType>Content</NuGetItemType>
+      <Pack>false</Pack>
+      <Private>False</Private>
+      <Link>Patterns\KADRY.Pulpity HR\005.WebProfile.xml</Link>
+    </Content>
+    <Content Include="$(NuGetPackageRoot)soneta.products.content\2210.2.2\contentFiles\any\netstandard2.0\Patterns\KADRY.Pulpity HR\006.StrukturaOrganizacyjna.xml" Condition="Exists('$(NuGetPackageRoot)soneta.products.content\2210.2.2\contentFiles\any\netstandard2.0\Patterns\KADRY.Pulpity HR\006.StrukturaOrganizacyjna.xml')">
+      <NuGetPackageId>Soneta.Products.Content</NuGetPackageId>
+      <NuGetPackageVersion>2210.2.2</NuGetPackageVersion>
+      <NuGetItemType>Content</NuGetItemType>
+      <Pack>false</Pack>
+      <Private>False</Private>
+      <Link>Patterns\KADRY.Pulpity HR\006.StrukturaOrganizacyjna.xml</Link>
+    </Content>
+    <Content Include="$(NuGetPackageRoot)soneta.products.content\2210.2.2\contentFiles\any\netstandard2.0\Patterns\KADRY.Pulpity HR\007.Umowa.xml" Condition="Exists('$(NuGetPackageRoot)soneta.products.content\2210.2.2\contentFiles\any\netstandard2.0\Patterns\KADRY.Pulpity HR\007.Umowa.xml')">
+      <NuGetPackageId>Soneta.Products.Content</NuGetPackageId>
+      <NuGetPackageVersion>2210.2.2</NuGetPackageVersion>
+      <NuGetItemType>Content</NuGetItemType>
+      <Pack>false</Pack>
+      <Private>False</Private>
+      <Link>Patterns\KADRY.Pulpity HR\007.Umowa.xml</Link>
+    </Content>
+    <Content Include="$(NuGetPackageRoot)soneta.products.content\2210.2.2\contentFiles\any\netstandard2.0\Patterns\KADRY.Pulpity HR\008.TaskDefinition.xml" Condition="Exists('$(NuGetPackageRoot)soneta.products.content\2210.2.2\contentFiles\any\netstandard2.0\Patterns\KADRY.Pulpity HR\008.TaskDefinition.xml')">
+      <NuGetPackageId>Soneta.Products.Content</NuGetPackageId>
+      <NuGetPackageVersion>2210.2.2</NuGetPackageVersion>
+      <NuGetItemType>Content</NuGetItemType>
+      <Pack>false</Pack>
+      <Private>False</Private>
+      <Link>Patterns\KADRY.Pulpity HR\008.TaskDefinition.xml</Link>
+    </Content>
+    <Content Include="$(NuGetPackageRoot)soneta.products.content\2210.2.2\contentFiles\any\netstandard2.0\Patterns\KADRY.Pulpity HR\009.Kadry.xml" Condition="Exists('$(NuGetPackageRoot)soneta.products.content\2210.2.2\contentFiles\any\netstandard2.0\Patterns\KADRY.Pulpity HR\009.Kadry.xml')">
+      <NuGetPackageId>Soneta.Products.Content</NuGetPackageId>
+      <NuGetPackageVersion>2210.2.2</NuGetPackageVersion>
+      <NuGetItemType>Content</NuGetItemType>
+      <Pack>false</Pack>
+      <Private>False</Private>
+      <Link>Patterns\KADRY.Pulpity HR\009.Kadry.xml</Link>
+    </Content>
+    <Content Include="$(NuGetPackageRoot)soneta.products.content\2210.2.2\contentFiles\any\netstandard2.0\Patterns\KADRY.Pulpity HR\010.KadryNet.xml" Condition="Exists('$(NuGetPackageRoot)soneta.products.content\2210.2.2\contentFiles\any\netstandard2.0\Patterns\KADRY.Pulpity HR\010.KadryNet.xml')">
+      <NuGetPackageId>Soneta.Products.Content</NuGetPackageId>
+      <NuGetPackageVersion>2210.2.2</NuGetPackageVersion>
+      <NuGetItemType>Content</NuGetItemType>
+      <Pack>false</Pack>
+      <Private>False</Private>
+      <Link>Patterns\KADRY.Pulpity HR\010.KadryNet.xml</Link>
+    </Content>
+    <Content Include="$(NuGetPackageRoot)soneta.products.content\2210.2.2\contentFiles\any\netstandard2.0\Patterns\KADRY.Pulpity HR\011.Listy_KiP.xml" Condition="Exists('$(NuGetPackageRoot)soneta.products.content\2210.2.2\contentFiles\any\netstandard2.0\Patterns\KADRY.Pulpity HR\011.Listy_KiP.xml')">
+      <NuGetPackageId>Soneta.Products.Content</NuGetPackageId>
+      <NuGetPackageVersion>2210.2.2</NuGetPackageVersion>
+      <NuGetItemType>Content</NuGetItemType>
+      <Pack>false</Pack>
+      <Private>False</Private>
+      <Link>Patterns\KADRY.Pulpity HR\011.Listy_KiP.xml</Link>
+    </Content>
+    <Content Include="$(NuGetPackageRoot)soneta.products.content\2210.2.2\contentFiles\any\netstandard2.0\Patterns\KADRY.Pulpity HR\012.BazaPulpity_Listy.xml" Condition="Exists('$(NuGetPackageRoot)soneta.products.content\2210.2.2\contentFiles\any\netstandard2.0\Patterns\KADRY.Pulpity HR\012.BazaPulpity_Listy.xml')">
+      <NuGetPackageId>Soneta.Products.Content</NuGetPackageId>
+      <NuGetPackageVersion>2210.2.2</NuGetPackageVersion>
+      <NuGetItemType>Content</NuGetItemType>
+      <Pack>false</Pack>
+      <Private>False</Private>
+      <Link>Patterns\KADRY.Pulpity HR\012.BazaPulpity_Listy.xml</Link>
+    </Content>
+    <Content Include="$(NuGetPackageRoot)soneta.products.content\2210.2.2\contentFiles\any\netstandard2.0\Patterns\KADRY.Pulpity HR\013.Zestawienia_Czasu_Pracy.xml" Condition="Exists('$(NuGetPackageRoot)soneta.products.content\2210.2.2\contentFiles\any\netstandard2.0\Patterns\KADRY.Pulpity HR\013.Zestawienia_Czasu_Pracy.xml')">
+      <NuGetPackageId>Soneta.Products.Content</NuGetPackageId>
+      <NuGetPackageVersion>2210.2.2</NuGetPackageVersion>
+      <NuGetItemType>Content</NuGetItemType>
+      <Pack>false</Pack>
+      <Private>False</Private>
+      <Link>Patterns\KADRY.Pulpity HR\013.Zestawienia_Czasu_Pracy.xml</Link>
+    </Content>
+    <Content Include="$(NuGetPackageRoot)soneta.products.content\2210.2.2\contentFiles\any\netstandard2.0\Patterns\KADRY.Pulpity HR\background1.png" Condition="Exists('$(NuGetPackageRoot)soneta.products.content\2210.2.2\contentFiles\any\netstandard2.0\Patterns\KADRY.Pulpity HR\background1.png')">
+      <NuGetPackageId>Soneta.Products.Content</NuGetPackageId>
+      <NuGetPackageVersion>2210.2.2</NuGetPackageVersion>
+      <NuGetItemType>Content</NuGetItemType>
+      <Pack>false</Pack>
+      <Private>False</Private>
+      <Link>Patterns\KADRY.Pulpity HR\background1.png</Link>
+    </Content>
+    <Content Include="$(NuGetPackageRoot)soneta.products.content\2210.2.2\contentFiles\any\netstandard2.0\Patterns\KADRY.Pulpity HR\index.html" Condition="Exists('$(NuGetPackageRoot)soneta.products.content\2210.2.2\contentFiles\any\netstandard2.0\Patterns\KADRY.Pulpity HR\index.html')">
+      <NuGetPackageId>Soneta.Products.Content</NuGetPackageId>
+      <NuGetPackageVersion>2210.2.2</NuGetPackageVersion>
+      <NuGetItemType>Content</NuGetItemType>
+      <Pack>false</Pack>
+      <Private>False</Private>
+      <Link>Patterns\KADRY.Pulpity HR\index.html</Link>
+    </Content>
+    <Content Include="$(NuGetPackageRoot)soneta.products.content\2210.2.2\contentFiles\any\netstandard2.0\Patterns\KADRY.Pulpity HR\index_pliki\Ulotka.png" Condition="Exists('$(NuGetPackageRoot)soneta.products.content\2210.2.2\contentFiles\any\netstandard2.0\Patterns\KADRY.Pulpity HR\index_pliki\Ulotka.png')">
+      <NuGetPackageId>Soneta.Products.Content</NuGetPackageId>
+      <NuGetPackageVersion>2210.2.2</NuGetPackageVersion>
+      <NuGetItemType>Content</NuGetItemType>
+      <Pack>false</Pack>
+      <Private>False</Private>
+      <Link>Patterns\KADRY.Pulpity HR\index_pliki\Ulotka.png</Link>
+    </Content>
+    <Content Include="$(NuGetPackageRoot)soneta.products.content\2210.2.2\contentFiles\any\netstandard2.0\Patterns\KADRY.Pulpity HR\index_pliki\boil.css" Condition="Exists('$(NuGetPackageRoot)soneta.products.content\2210.2.2\contentFiles\any\netstandard2.0\Patterns\KADRY.Pulpity HR\index_pliki\boil.css')">
+      <NuGetPackageId>Soneta.Products.Content</NuGetPackageId>
+      <NuGetPackageVersion>2210.2.2</NuGetPackageVersion>
+      <NuGetItemType>Content</NuGetItemType>
+      <Pack>false</Pack>
+      <Private>False</Private>
+      <Link>Patterns\KADRY.Pulpity HR\index_pliki\boil.css</Link>
+    </Content>
+    <Content Include="$(NuGetPackageRoot)soneta.products.content\2210.2.2\contentFiles\any\netstandard2.0\Patterns\KADRY.Pulpity HR\index_pliki\bulb.png" Condition="Exists('$(NuGetPackageRoot)soneta.products.content\2210.2.2\contentFiles\any\netstandard2.0\Patterns\KADRY.Pulpity HR\index_pliki\bulb.png')">
+      <NuGetPackageId>Soneta.Products.Content</NuGetPackageId>
+      <NuGetPackageVersion>2210.2.2</NuGetPackageVersion>
+      <NuGetItemType>Content</NuGetItemType>
+      <Pack>false</Pack>
+      <Private>False</Private>
+      <Link>Patterns\KADRY.Pulpity HR\index_pliki\bulb.png</Link>
+    </Content>
+    <Content Include="$(NuGetPackageRoot)soneta.products.content\2210.2.2\contentFiles\any\netstandard2.0\Patterns\KADRY.Pulpity HR\index_pliki\colorschememapping.xml" Condition="Exists('$(NuGetPackageRoot)soneta.products.content\2210.2.2\contentFiles\any\netstandard2.0\Patterns\KADRY.Pulpity HR\index_pliki\colorschememapping.xml')">
+      <NuGetPackageId>Soneta.Products.Content</NuGetPackageId>
+      <NuGetPackageVersion>2210.2.2</NuGetPackageVersion>
+      <NuGetItemType>Content</NuGetItemType>
+      <Pack>false</Pack>
+      <Private>False</Private>
+      <Link>Patterns\KADRY.Pulpity HR\index_pliki\colorschememapping.xml</Link>
+    </Content>
+    <Content Include="$(NuGetPackageRoot)soneta.products.content\2210.2.2\contentFiles\any\netstandard2.0\Patterns\KADRY.Pulpity HR\index_pliki\filelist.xml" Condition="Exists('$(NuGetPackageRoot)soneta.products.content\2210.2.2\contentFiles\any\netstandard2.0\Patterns\KADRY.Pulpity HR\index_pliki\filelist.xml')">
+      <NuGetPackageId>Soneta.Products.Content</NuGetPackageId>
+      <NuGetPackageVersion>2210.2.2</NuGetPackageVersion>
+      <NuGetItemType>Content</NuGetItemType>
+      <Pack>false</Pack>
+      <Private>False</Private>
+      <Link>Patterns\KADRY.Pulpity HR\index_pliki\filelist.xml</Link>
+    </Content>
+    <Content Include="$(NuGetPackageRoot)soneta.products.content\2210.2.2\contentFiles\any\netstandard2.0\Patterns\KADRY.Pulpity HR\index_pliki\image001.jpg" Condition="Exists('$(NuGetPackageRoot)soneta.products.content\2210.2.2\contentFiles\any\netstandard2.0\Patterns\KADRY.Pulpity HR\index_pliki\image001.jpg')">
+      <NuGetPackageId>Soneta.Products.Content</NuGetPackageId>
+      <NuGetPackageVersion>2210.2.2</NuGetPackageVersion>
+      <NuGetItemType>Content</NuGetItemType>
+      <Pack>false</Pack>
+      <Private>False</Private>
+      <Link>Patterns\KADRY.Pulpity HR\index_pliki\image001.jpg</Link>
+    </Content>
+    <Content Include="$(NuGetPackageRoot)soneta.products.content\2210.2.2\contentFiles\any\netstandard2.0\Patterns\KADRY.Pulpity HR\index_pliki\image002.png" Condition="Exists('$(NuGetPackageRoot)soneta.products.content\2210.2.2\contentFiles\any\netstandard2.0\Patterns\KADRY.Pulpity HR\index_pliki\image002.png')">
+      <NuGetPackageId>Soneta.Products.Content</NuGetPackageId>
+      <NuGetPackageVersion>2210.2.2</NuGetPackageVersion>
+      <NuGetItemType>Content</NuGetItemType>
+      <Pack>false</Pack>
+      <Private>False</Private>
+      <Link>Patterns\KADRY.Pulpity HR\index_pliki\image002.png</Link>
+    </Content>
+    <Content Include="$(NuGetPackageRoot)soneta.products.content\2210.2.2\contentFiles\any\netstandard2.0\Patterns\KADRY.Pulpity HR\index_pliki\logo_enova365.png" Condition="Exists('$(NuGetPackageRoot)soneta.products.content\2210.2.2\contentFiles\any\netstandard2.0\Patterns\KADRY.Pulpity HR\index_pliki\logo_enova365.png')">
+      <NuGetPackageId>Soneta.Products.Content</NuGetPackageId>
+      <NuGetPackageVersion>2210.2.2</NuGetPackageVersion>
+      <NuGetItemType>Content</NuGetItemType>
+      <Pack>false</Pack>
+      <Private>False</Private>
+      <Link>Patterns\KADRY.Pulpity HR\index_pliki\logo_enova365.png</Link>
+    </Content>
+    <Content Include="$(NuGetPackageRoot)soneta.products.content\2210.2.2\contentFiles\any\netstandard2.0\Patterns\KADRY.Pulpity HR\index_pliki\style.css" Condition="Exists('$(NuGetPackageRoot)soneta.products.content\2210.2.2\contentFiles\any\netstandard2.0\Patterns\KADRY.Pulpity HR\index_pliki\style.css')">
+      <NuGetPackageId>Soneta.Products.Content</NuGetPackageId>
+      <NuGetPackageVersion>2210.2.2</NuGetPackageVersion>
+      <NuGetItemType>Content</NuGetItemType>
+      <Pack>false</Pack>
+      <Private>False</Private>
+      <Link>Patterns\KADRY.Pulpity HR\index_pliki\style.css</Link>
+    </Content>
+    <Content Include="$(NuGetPackageRoot)soneta.products.content\2210.2.2\contentFiles\any\netstandard2.0\Patterns\KADRY.Pulpity HR\index_pliki\themedata.thmx" Condition="Exists('$(NuGetPackageRoot)soneta.products.content\2210.2.2\contentFiles\any\netstandard2.0\Patterns\KADRY.Pulpity HR\index_pliki\themedata.thmx')">
+      <NuGetPackageId>Soneta.Products.Content</NuGetPackageId>
+      <NuGetPackageVersion>2210.2.2</NuGetPackageVersion>
+      <NuGetItemType>Content</NuGetItemType>
+      <Pack>false</Pack>
+      <Private>False</Private>
+      <Link>Patterns\KADRY.Pulpity HR\index_pliki\themedata.thmx</Link>
+    </Content>
+    <Content Include="$(NuGetPackageRoot)soneta.products.content\2210.2.2\contentFiles\any\netstandard2.0\Patterns\KADRY.Pulpity HR\kredka.png" Condition="Exists('$(NuGetPackageRoot)soneta.products.content\2210.2.2\contentFiles\any\netstandard2.0\Patterns\KADRY.Pulpity HR\kredka.png')">
+      <NuGetPackageId>Soneta.Products.Content</NuGetPackageId>
+      <NuGetPackageVersion>2210.2.2</NuGetPackageVersion>
+      <NuGetItemType>Content</NuGetItemType>
+      <Pack>false</Pack>
+      <Private>False</Private>
+      <Link>Patterns\KADRY.Pulpity HR\kredka.png</Link>
+    </Content>
+    <Content Include="$(NuGetPackageRoot)soneta.products.content\2210.2.2\contentFiles\any\netstandard2.0\Patterns\KADRY.Pulpity HR\respond.min.js" Condition="Exists('$(NuGetPackageRoot)soneta.products.content\2210.2.2\contentFiles\any\netstandard2.0\Patterns\KADRY.Pulpity HR\respond.min.js')">
+      <NuGetPackageId>Soneta.Products.Content</NuGetPackageId>
+      <NuGetPackageVersion>2210.2.2</NuGetPackageVersion>
+      <NuGetItemType>Content</NuGetItemType>
+      <Pack>false</Pack>
+      <Private>False</Private>
+      <Link>Patterns\KADRY.Pulpity HR\respond.min.js</Link>
+    </Content>
+    <Content Include="$(NuGetPackageRoot)soneta.products.content\2210.2.2\contentFiles\any\netstandard2.0\Patterns\KSIEGOWOSC.Rozbudowana konfiguracja ksiegowa\001.Podstawy.xml" Condition="Exists('$(NuGetPackageRoot)soneta.products.content\2210.2.2\contentFiles\any\netstandard2.0\Patterns\KSIEGOWOSC.Rozbudowana konfiguracja ksiegowa\001.Podstawy.xml')">
+      <NuGetPackageId>Soneta.Products.Content</NuGetPackageId>
+      <NuGetPackageVersion>2210.2.2</NuGetPackageVersion>
+      <NuGetItemType>Content</NuGetItemType>
+      <Pack>false</Pack>
+      <Private>False</Private>
+      <Link>Patterns\KSIEGOWOSC.Rozbudowana konfiguracja ksiegowa\001.Podstawy.xml</Link>
+    </Content>
+    <Content Include="$(NuGetPackageRoot)soneta.products.content\2210.2.2\contentFiles\any\netstandard2.0\Patterns\KSIEGOWOSC.Rozbudowana konfiguracja ksiegowa\002.Podstawy.gold.xml" Condition="Exists('$(NuGetPackageRoot)soneta.products.content\2210.2.2\contentFiles\any\netstandard2.0\Patterns\KSIEGOWOSC.Rozbudowana konfiguracja ksiegowa\002.Podstawy.gold.xml')">
+      <NuGetPackageId>Soneta.Products.Content</NuGetPackageId>
+      <NuGetPackageVersion>2210.2.2</NuGetPackageVersion>
+      <NuGetItemType>Content</NuGetItemType>
+      <Pack>false</Pack>
+      <Private>False</Private>
+      <Link>Patterns\KSIEGOWOSC.Rozbudowana konfiguracja ksiegowa\002.Podstawy.gold.xml</Link>
+    </Content>
+    <Content Include="$(NuGetPackageRoot)soneta.products.content\2210.2.2\contentFiles\any\netstandard2.0\Patterns\KSIEGOWOSC.Rozbudowana konfiguracja ksiegowa\002.Podstawy.silver.xml" Condition="Exists('$(NuGetPackageRoot)soneta.products.content\2210.2.2\contentFiles\any\netstandard2.0\Patterns\KSIEGOWOSC.Rozbudowana konfiguracja ksiegowa\002.Podstawy.silver.xml')">
+      <NuGetPackageId>Soneta.Products.Content</NuGetPackageId>
+      <NuGetPackageVersion>2210.2.2</NuGetPackageVersion>
+      <NuGetItemType>Content</NuGetItemType>
+      <Pack>false</Pack>
+      <Private>False</Private>
+      <Link>Patterns\KSIEGOWOSC.Rozbudowana konfiguracja ksiegowa\002.Podstawy.silver.xml</Link>
+    </Content>
+    <Content Include="$(NuGetPackageRoot)soneta.products.content\2210.2.2\contentFiles\any\netstandard2.0\Patterns\KSIEGOWOSC.Rozbudowana konfiguracja ksiegowa\100.Handel.xml" Condition="Exists('$(NuGetPackageRoot)soneta.products.content\2210.2.2\contentFiles\any\netstandard2.0\Patterns\KSIEGOWOSC.Rozbudowana konfiguracja ksiegowa\100.Handel.xml')">
+      <NuGetPackageId>Soneta.Products.Content</NuGetPackageId>
+      <NuGetPackageVersion>2210.2.2</NuGetPackageVersion>
+      <NuGetItemType>Content</NuGetItemType>
+      <Pack>false</Pack>
+      <Private>False</Private>
+      <Link>Patterns\KSIEGOWOSC.Rozbudowana konfiguracja ksiegowa\100.Handel.xml</Link>
+    </Content>
+    <Content Include="$(NuGetPackageRoot)soneta.products.content\2210.2.2\contentFiles\any\netstandard2.0\Patterns\KSIEGOWOSC.Rozbudowana konfiguracja ksiegowa\100.Kadry.gold.xml" Condition="Exists('$(NuGetPackageRoot)soneta.products.content\2210.2.2\contentFiles\any\netstandard2.0\Patterns\KSIEGOWOSC.Rozbudowana konfiguracja ksiegowa\100.Kadry.gold.xml')">
+      <NuGetPackageId>Soneta.Products.Content</NuGetPackageId>
+      <NuGetPackageVersion>2210.2.2</NuGetPackageVersion>
+      <NuGetItemType>Content</NuGetItemType>
+      <Pack>false</Pack>
+      <Private>False</Private>
+      <Link>Patterns\KSIEGOWOSC.Rozbudowana konfiguracja ksiegowa\100.Kadry.gold.xml</Link>
+    </Content>
+    <Content Include="$(NuGetPackageRoot)soneta.products.content\2210.2.2\contentFiles\any\netstandard2.0\Patterns\KSIEGOWOSC.Rozbudowana konfiguracja ksiegowa\100.Kadry.silver.xml" Condition="Exists('$(NuGetPackageRoot)soneta.products.content\2210.2.2\contentFiles\any\netstandard2.0\Patterns\KSIEGOWOSC.Rozbudowana konfiguracja ksiegowa\100.Kadry.silver.xml')">
+      <NuGetPackageId>Soneta.Products.Content</NuGetPackageId>
+      <NuGetPackageVersion>2210.2.2</NuGetPackageVersion>
+      <NuGetItemType>Content</NuGetItemType>
+      <Pack>false</Pack>
+      <Private>False</Private>
+      <Link>Patterns\KSIEGOWOSC.Rozbudowana konfiguracja ksiegowa\100.Kadry.silver.xml</Link>
+    </Content>
+    <Content Include="$(NuGetPackageRoot)soneta.products.content\2210.2.2\contentFiles\any\netstandard2.0\Patterns\KSIEGOWOSC.Rozbudowana konfiguracja ksiegowa\101.BazaDemo_Listy.xml" Condition="Exists('$(NuGetPackageRoot)soneta.products.content\2210.2.2\contentFiles\any\netstandard2.0\Patterns\KSIEGOWOSC.Rozbudowana konfiguracja ksiegowa\101.BazaDemo_Listy.xml')">
+      <NuGetPackageId>Soneta.Products.Content</NuGetPackageId>
+      <NuGetPackageVersion>2210.2.2</NuGetPackageVersion>
+      <NuGetItemType>Content</NuGetItemType>
+      <Pack>false</Pack>
+      <Private>False</Private>
+      <Link>Patterns\KSIEGOWOSC.Rozbudowana konfiguracja ksiegowa\101.BazaDemo_Listy.xml</Link>
+    </Content>
+    <Content Include="$(NuGetPackageRoot)soneta.products.content\2210.2.2\contentFiles\any\netstandard2.0\Patterns\KSIEGOWOSC.Rozbudowana konfiguracja ksiegowa\101.Kadry.xml" Condition="Exists('$(NuGetPackageRoot)soneta.products.content\2210.2.2\contentFiles\any\netstandard2.0\Patterns\KSIEGOWOSC.Rozbudowana konfiguracja ksiegowa\101.Kadry.xml')">
+      <NuGetPackageId>Soneta.Products.Content</NuGetPackageId>
+      <NuGetPackageVersion>2210.2.2</NuGetPackageVersion>
+      <NuGetItemType>Content</NuGetItemType>
+      <Pack>false</Pack>
+      <Private>False</Private>
+      <Link>Patterns\KSIEGOWOSC.Rozbudowana konfiguracja ksiegowa\101.Kadry.xml</Link>
+    </Content>
+    <Content Include="$(NuGetPackageRoot)soneta.products.content\2210.2.2\contentFiles\any\netstandard2.0\Patterns\KSIEGOWOSC.Rozbudowana konfiguracja ksiegowa\201.Cechy.xml" Condition="Exists('$(NuGetPackageRoot)soneta.products.content\2210.2.2\contentFiles\any\netstandard2.0\Patterns\KSIEGOWOSC.Rozbudowana konfiguracja ksiegowa\201.Cechy.xml')">
+      <NuGetPackageId>Soneta.Products.Content</NuGetPackageId>
+      <NuGetPackageVersion>2210.2.2</NuGetPackageVersion>
+      <NuGetItemType>Content</NuGetItemType>
+      <Pack>false</Pack>
+      <Private>False</Private>
+      <Link>Patterns\KSIEGOWOSC.Rozbudowana konfiguracja ksiegowa\201.Cechy.xml</Link>
+    </Content>
+    <Content Include="$(NuGetPackageRoot)soneta.products.content\2210.2.2\contentFiles\any\netstandard2.0\Patterns\KSIEGOWOSC.Rozbudowana konfiguracja ksiegowa\202.CentraKosztow.xml" Condition="Exists('$(NuGetPackageRoot)soneta.products.content\2210.2.2\contentFiles\any\netstandard2.0\Patterns\KSIEGOWOSC.Rozbudowana konfiguracja ksiegowa\202.CentraKosztow.xml')">
+      <NuGetPackageId>Soneta.Products.Content</NuGetPackageId>
+      <NuGetPackageVersion>2210.2.2</NuGetPackageVersion>
+      <NuGetItemType>Content</NuGetItemType>
+      <Pack>false</Pack>
+      <Private>False</Private>
+      <Link>Patterns\KSIEGOWOSC.Rozbudowana konfiguracja ksiegowa\202.CentraKosztow.xml</Link>
+    </Content>
+    <Content Include="$(NuGetPackageRoot)soneta.products.content\2210.2.2\contentFiles\any\netstandard2.0\Patterns\KSIEGOWOSC.Rozbudowana konfiguracja ksiegowa\203.DefinicjeDokumentow.xml" Condition="Exists('$(NuGetPackageRoot)soneta.products.content\2210.2.2\contentFiles\any\netstandard2.0\Patterns\KSIEGOWOSC.Rozbudowana konfiguracja ksiegowa\203.DefinicjeDokumentow.xml')">
+      <NuGetPackageId>Soneta.Products.Content</NuGetPackageId>
+      <NuGetPackageVersion>2210.2.2</NuGetPackageVersion>
+      <NuGetItemType>Content</NuGetItemType>
+      <Pack>false</Pack>
+      <Private>False</Private>
+      <Link>Patterns\KSIEGOWOSC.Rozbudowana konfiguracja ksiegowa\203.DefinicjeDokumentow.xml</Link>
+    </Content>
+    <Content Include="$(NuGetPackageRoot)soneta.products.content\2210.2.2\contentFiles\any\netstandard2.0\Patterns\KSIEGOWOSC.Rozbudowana konfiguracja ksiegowa\204.SlownikOpisow.xml" Condition="Exists('$(NuGetPackageRoot)soneta.products.content\2210.2.2\contentFiles\any\netstandard2.0\Patterns\KSIEGOWOSC.Rozbudowana konfiguracja ksiegowa\204.SlownikOpisow.xml')">
+      <NuGetPackageId>Soneta.Products.Content</NuGetPackageId>
+      <NuGetPackageVersion>2210.2.2</NuGetPackageVersion>
+      <NuGetItemType>Content</NuGetItemType>
+      <Pack>false</Pack>
+      <Private>False</Private>
+      <Link>Patterns\KSIEGOWOSC.Rozbudowana konfiguracja ksiegowa\204.SlownikOpisow.xml</Link>
+    </Content>
+    <Content Include="$(NuGetPackageRoot)soneta.products.content\2210.2.2\contentFiles\any\netstandard2.0\Patterns\KSIEGOWOSC.Rozbudowana konfiguracja ksiegowa\205.KontaSchematyZestawieniaKs.xml" Condition="Exists('$(NuGetPackageRoot)soneta.products.content\2210.2.2\contentFiles\any\netstandard2.0\Patterns\KSIEGOWOSC.Rozbudowana konfiguracja ksiegowa\205.KontaSchematyZestawieniaKs.xml')">
+      <NuGetPackageId>Soneta.Products.Content</NuGetPackageId>
+      <NuGetPackageVersion>2210.2.2</NuGetPackageVersion>
+      <NuGetItemType>Content</NuGetItemType>
+      <Pack>false</Pack>
+      <Private>False</Private>
+      <Link>Patterns\KSIEGOWOSC.Rozbudowana konfiguracja ksiegowa\205.KontaSchematyZestawieniaKs.xml</Link>
+    </Content>
+    <Content Include="$(NuGetPackageRoot)soneta.products.content\2210.2.2\contentFiles\any\netstandard2.0\Patterns\KSIEGOWOSC.Rozbudowana konfiguracja ksiegowa\206.TaskDefinition.xml" Condition="Exists('$(NuGetPackageRoot)soneta.products.content\2210.2.2\contentFiles\any\netstandard2.0\Patterns\KSIEGOWOSC.Rozbudowana konfiguracja ksiegowa\206.TaskDefinition.xml')">
+      <NuGetPackageId>Soneta.Products.Content</NuGetPackageId>
+      <NuGetPackageVersion>2210.2.2</NuGetPackageVersion>
+      <NuGetItemType>Content</NuGetItemType>
+      <Pack>false</Pack>
+      <Private>False</Private>
+      <Link>Patterns\KSIEGOWOSC.Rozbudowana konfiguracja ksiegowa\206.TaskDefinition.xml</Link>
+    </Content>
+    <Content Include="$(NuGetPackageRoot)soneta.products.content\2210.2.2\contentFiles\any\netstandard2.0\Patterns\KSIEGOWOSC.Rozbudowana konfiguracja ksiegowa\207.SchematyPodzialowe.xml" Condition="Exists('$(NuGetPackageRoot)soneta.products.content\2210.2.2\contentFiles\any\netstandard2.0\Patterns\KSIEGOWOSC.Rozbudowana konfiguracja ksiegowa\207.SchematyPodzialowe.xml')">
+      <NuGetPackageId>Soneta.Products.Content</NuGetPackageId>
+      <NuGetPackageVersion>2210.2.2</NuGetPackageVersion>
+      <NuGetItemType>Content</NuGetItemType>
+      <Pack>false</Pack>
+      <Private>False</Private>
+      <Link>Patterns\KSIEGOWOSC.Rozbudowana konfiguracja ksiegowa\207.SchematyPodzialowe.xml</Link>
+    </Content>
+    <Content Include="$(NuGetPackageRoot)soneta.products.content\2210.2.2\contentFiles\any\netstandard2.0\Patterns\KSIEGOWOSC.Rozbudowana konfiguracja ksiegowa\208.UstawieniaListFormularzy.xml" Condition="Exists('$(NuGetPackageRoot)soneta.products.content\2210.2.2\contentFiles\any\netstandard2.0\Patterns\KSIEGOWOSC.Rozbudowana konfiguracja ksiegowa\208.UstawieniaListFormularzy.xml')">
+      <NuGetPackageId>Soneta.Products.Content</NuGetPackageId>
+      <NuGetPackageVersion>2210.2.2</NuGetPackageVersion>
+      <NuGetItemType>Content</NuGetItemType>
+      <Pack>false</Pack>
+      <Private>False</Private>
+      <Link>Patterns\KSIEGOWOSC.Rozbudowana konfiguracja ksiegowa\208.UstawieniaListFormularzy.xml</Link>
+    </Content>
+    <Content Include="$(NuGetPackageRoot)soneta.products.content\2210.2.2\contentFiles\any\netstandard2.0\Patterns\KSIEGOWOSC.Rozbudowana konfiguracja ksiegowa\211.ZestawPodzielnikow.xml" Condition="Exists('$(NuGetPackageRoot)soneta.products.content\2210.2.2\contentFiles\any\netstandard2.0\Patterns\KSIEGOWOSC.Rozbudowana konfiguracja ksiegowa\211.ZestawPodzielnikow.xml')">
+      <NuGetPackageId>Soneta.Products.Content</NuGetPackageId>
+      <NuGetPackageVersion>2210.2.2</NuGetPackageVersion>
+      <NuGetItemType>Content</NuGetItemType>
+      <Pack>false</Pack>
+      <Private>False</Private>
+      <Link>Patterns\KSIEGOWOSC.Rozbudowana konfiguracja ksiegowa\211.ZestawPodzielnikow.xml</Link>
+    </Content>
+    <Content Include="$(NuGetPackageRoot)soneta.products.content\2210.2.2\contentFiles\any\netstandard2.0\Patterns\KSIEGOWOSC.Rozbudowana konfiguracja ksiegowa\212.Pojazdy.xml" Condition="Exists('$(NuGetPackageRoot)soneta.products.content\2210.2.2\contentFiles\any\netstandard2.0\Patterns\KSIEGOWOSC.Rozbudowana konfiguracja ksiegowa\212.Pojazdy.xml')">
+      <NuGetPackageId>Soneta.Products.Content</NuGetPackageId>
+      <NuGetPackageVersion>2210.2.2</NuGetPackageVersion>
+      <NuGetItemType>Content</NuGetItemType>
+      <Pack>false</Pack>
+      <Private>False</Private>
+      <Link>Patterns\KSIEGOWOSC.Rozbudowana konfiguracja ksiegowa\212.Pojazdy.xml</Link>
+    </Content>
+    <Content Include="$(NuGetPackageRoot)soneta.products.content\2210.2.2\contentFiles\any\netstandard2.0\Patterns\KSIEGOWOSC.Rozbudowana konfiguracja ksiegowa\212.Trasy.xml" Condition="Exists('$(NuGetPackageRoot)soneta.products.content\2210.2.2\contentFiles\any\netstandard2.0\Patterns\KSIEGOWOSC.Rozbudowana konfiguracja ksiegowa\212.Trasy.xml')">
+      <NuGetPackageId>Soneta.Products.Content</NuGetPackageId>
+      <NuGetPackageVersion>2210.2.2</NuGetPackageVersion>
+      <NuGetItemType>Content</NuGetItemType>
+      <Pack>false</Pack>
+      <Private>False</Private>
+      <Link>Patterns\KSIEGOWOSC.Rozbudowana konfiguracja ksiegowa\212.Trasy.xml</Link>
+    </Content>
+    <Content Include="$(NuGetPackageRoot)soneta.products.content\2210.2.2\contentFiles\any\netstandard2.0\Patterns\KSIEGOWOSC.Rozbudowana konfiguracja ksiegowa\213.Kontrahenci.xml" Condition="Exists('$(NuGetPackageRoot)soneta.products.content\2210.2.2\contentFiles\any\netstandard2.0\Patterns\KSIEGOWOSC.Rozbudowana konfiguracja ksiegowa\213.Kontrahenci.xml')">
+      <NuGetPackageId>Soneta.Products.Content</NuGetPackageId>
+      <NuGetPackageVersion>2210.2.2</NuGetPackageVersion>
+      <NuGetItemType>Content</NuGetItemType>
+      <Pack>false</Pack>
+      <Private>False</Private>
+      <Link>Patterns\KSIEGOWOSC.Rozbudowana konfiguracja ksiegowa\213.Kontrahenci.xml</Link>
+    </Content>
+    <Content Include="$(NuGetPackageRoot)soneta.products.content\2210.2.2\contentFiles\any\netstandard2.0\Patterns\KSIEGOWOSC.Rozbudowana konfiguracja ksiegowa\214.MatryceDokumentow.xml" Condition="Exists('$(NuGetPackageRoot)soneta.products.content\2210.2.2\contentFiles\any\netstandard2.0\Patterns\KSIEGOWOSC.Rozbudowana konfiguracja ksiegowa\214.MatryceDokumentow.xml')">
+      <NuGetPackageId>Soneta.Products.Content</NuGetPackageId>
+      <NuGetPackageVersion>2210.2.2</NuGetPackageVersion>
+      <NuGetItemType>Content</NuGetItemType>
+      <Pack>false</Pack>
+      <Private>False</Private>
+      <Link>Patterns\KSIEGOWOSC.Rozbudowana konfiguracja ksiegowa\214.MatryceDokumentow.xml</Link>
+    </Content>
+    <Content Include="$(NuGetPackageRoot)soneta.products.content\2210.2.2\contentFiles\any\netstandard2.0\Patterns\KSIEGOWOSC.Rozbudowana konfiguracja ksiegowa\215.MatryceZaplat.xml" Condition="Exists('$(NuGetPackageRoot)soneta.products.content\2210.2.2\contentFiles\any\netstandard2.0\Patterns\KSIEGOWOSC.Rozbudowana konfiguracja ksiegowa\215.MatryceZaplat.xml')">
+      <NuGetPackageId>Soneta.Products.Content</NuGetPackageId>
+      <NuGetPackageVersion>2210.2.2</NuGetPackageVersion>
+      <NuGetItemType>Content</NuGetItemType>
+      <Pack>false</Pack>
+      <Private>False</Private>
+      <Link>Patterns\KSIEGOWOSC.Rozbudowana konfiguracja ksiegowa\215.MatryceZaplat.xml</Link>
+    </Content>
+    <Content Include="$(NuGetPackageRoot)soneta.products.content\2210.2.2\contentFiles\any\netstandard2.0\Patterns\KSIEGOWOSC.Rozbudowana konfiguracja ksiegowa\216.EwidencjeSP.xml" Condition="Exists('$(NuGetPackageRoot)soneta.products.content\2210.2.2\contentFiles\any\netstandard2.0\Patterns\KSIEGOWOSC.Rozbudowana konfiguracja ksiegowa\216.EwidencjeSP.xml')">
+      <NuGetPackageId>Soneta.Products.Content</NuGetPackageId>
+      <NuGetPackageVersion>2210.2.2</NuGetPackageVersion>
+      <NuGetItemType>Content</NuGetItemType>
+      <Pack>false</Pack>
+      <Private>False</Private>
+      <Link>Patterns\KSIEGOWOSC.Rozbudowana konfiguracja ksiegowa\216.EwidencjeSP.xml</Link>
+    </Content>
+    <Content Include="$(NuGetPackageRoot)soneta.products.content\2210.2.2\contentFiles\any\netstandard2.0\Patterns\KSIEGOWOSC.Rozbudowana konfiguracja ksiegowa\217.KosztRMK.xml" Condition="Exists('$(NuGetPackageRoot)soneta.products.content\2210.2.2\contentFiles\any\netstandard2.0\Patterns\KSIEGOWOSC.Rozbudowana konfiguracja ksiegowa\217.KosztRMK.xml')">
+      <NuGetPackageId>Soneta.Products.Content</NuGetPackageId>
+      <NuGetPackageVersion>2210.2.2</NuGetPackageVersion>
+      <NuGetItemType>Content</NuGetItemType>
+      <Pack>false</Pack>
+      <Private>False</Private>
+      <Link>Patterns\KSIEGOWOSC.Rozbudowana konfiguracja ksiegowa\217.KosztRMK.xml</Link>
+    </Content>
+    <Content Include="$(NuGetPackageRoot)soneta.products.content\2210.2.2\contentFiles\any\netstandard2.0\Patterns\KSIEGOWOSC.Rozbudowana konfiguracja ksiegowa\218.SrodkiTrwale.xml" Condition="Exists('$(NuGetPackageRoot)soneta.products.content\2210.2.2\contentFiles\any\netstandard2.0\Patterns\KSIEGOWOSC.Rozbudowana konfiguracja ksiegowa\218.SrodkiTrwale.xml')">
+      <NuGetPackageId>Soneta.Products.Content</NuGetPackageId>
+      <NuGetPackageVersion>2210.2.2</NuGetPackageVersion>
+      <NuGetItemType>Content</NuGetItemType>
+      <Pack>false</Pack>
+      <Private>False</Private>
+      <Link>Patterns\KSIEGOWOSC.Rozbudowana konfiguracja ksiegowa\218.SrodkiTrwale.xml</Link>
+    </Content>
+    <Content Include="$(NuGetPackageRoot)soneta.products.content\2210.2.2\contentFiles\any\netstandard2.0\Patterns\KSIEGOWOSC.Rozbudowana konfiguracja ksiegowa\index.html" Condition="Exists('$(NuGetPackageRoot)soneta.products.content\2210.2.2\contentFiles\any\netstandard2.0\Patterns\KSIEGOWOSC.Rozbudowana konfiguracja ksiegowa\index.html')">
+      <NuGetPackageId>Soneta.Products.Content</NuGetPackageId>
+      <NuGetPackageVersion>2210.2.2</NuGetPackageVersion>
+      <NuGetItemType>Content</NuGetItemType>
+      <Pack>false</Pack>
+      <Private>False</Private>
+      <Link>Patterns\KSIEGOWOSC.Rozbudowana konfiguracja ksiegowa\index.html</Link>
+    </Content>
+    <Content Include="$(NuGetPackageRoot)soneta.products.content\2210.2.2\contentFiles\any\netstandard2.0\Patterns\KSIEGOWOSC.Rozbudowana konfiguracja ksiegowa\index_pliki\boil.css" Condition="Exists('$(NuGetPackageRoot)soneta.products.content\2210.2.2\contentFiles\any\netstandard2.0\Patterns\KSIEGOWOSC.Rozbudowana konfiguracja ksiegowa\index_pliki\boil.css')">
+      <NuGetPackageId>Soneta.Products.Content</NuGetPackageId>
+      <NuGetPackageVersion>2210.2.2</NuGetPackageVersion>
+      <NuGetItemType>Content</NuGetItemType>
+      <Pack>false</Pack>
+      <Private>False</Private>
+      <Link>Patterns\KSIEGOWOSC.Rozbudowana konfiguracja ksiegowa\index_pliki\boil.css</Link>
+    </Content>
+    <Content Include="$(NuGetPackageRoot)soneta.products.content\2210.2.2\contentFiles\any\netstandard2.0\Patterns\KSIEGOWOSC.Rozbudowana konfiguracja ksiegowa\index_pliki\bulb.png" Condition="Exists('$(NuGetPackageRoot)soneta.products.content\2210.2.2\contentFiles\any\netstandard2.0\Patterns\KSIEGOWOSC.Rozbudowana konfiguracja ksiegowa\index_pliki\bulb.png')">
+      <NuGetPackageId>Soneta.Products.Content</NuGetPackageId>
+      <NuGetPackageVersion>2210.2.2</NuGetPackageVersion>
+      <NuGetItemType>Content</NuGetItemType>
+      <Pack>false</Pack>
+      <Private>False</Private>
+      <Link>Patterns\KSIEGOWOSC.Rozbudowana konfiguracja ksiegowa\index_pliki\bulb.png</Link>
+    </Content>
+    <Content Include="$(NuGetPackageRoot)soneta.products.content\2210.2.2\contentFiles\any\netstandard2.0\Patterns\KSIEGOWOSC.Rozbudowana konfiguracja ksiegowa\index_pliki\logo_enova365.png" Condition="Exists('$(NuGetPackageRoot)soneta.products.content\2210.2.2\contentFiles\any\netstandard2.0\Patterns\KSIEGOWOSC.Rozbudowana konfiguracja ksiegowa\index_pliki\logo_enova365.png')">
+      <NuGetPackageId>Soneta.Products.Content</NuGetPackageId>
+      <NuGetPackageVersion>2210.2.2</NuGetPackageVersion>
+      <NuGetItemType>Content</NuGetItemType>
+      <Pack>false</Pack>
+      <Private>False</Private>
+      <Link>Patterns\KSIEGOWOSC.Rozbudowana konfiguracja ksiegowa\index_pliki\logo_enova365.png</Link>
+    </Content>
+    <Content Include="$(NuGetPackageRoot)soneta.products.content\2210.2.2\contentFiles\any\netstandard2.0\Patterns\KSIEGOWOSC.Rozbudowana konfiguracja ksiegowa\index_pliki\style.css" Condition="Exists('$(NuGetPackageRoot)soneta.products.content\2210.2.2\contentFiles\any\netstandard2.0\Patterns\KSIEGOWOSC.Rozbudowana konfiguracja ksiegowa\index_pliki\style.css')">
+      <NuGetPackageId>Soneta.Products.Content</NuGetPackageId>
+      <NuGetPackageVersion>2210.2.2</NuGetPackageVersion>
+      <NuGetItemType>Content</NuGetItemType>
+      <Pack>false</Pack>
+      <Private>False</Private>
+      <Link>Patterns\KSIEGOWOSC.Rozbudowana konfiguracja ksiegowa\index_pliki\style.css</Link>
+    </Content>
+    <Content Include="$(NuGetPackageRoot)soneta.products.content\2210.2.2\contentFiles\any\netstandard2.0\Patterns\PRODUKCJA.ProdukcjaNamiotow\001.Podstawy.xml" Condition="Exists('$(NuGetPackageRoot)soneta.products.content\2210.2.2\contentFiles\any\netstandard2.0\Patterns\PRODUKCJA.ProdukcjaNamiotow\001.Podstawy.xml')">
+      <NuGetPackageId>Soneta.Products.Content</NuGetPackageId>
+      <NuGetPackageVersion>2210.2.2</NuGetPackageVersion>
+      <NuGetItemType>Content</NuGetItemType>
+      <Pack>false</Pack>
+      <Private>False</Private>
+      <Link>Patterns\PRODUKCJA.ProdukcjaNamiotow\001.Podstawy.xml</Link>
+    </Content>
+    <Content Include="$(NuGetPackageRoot)soneta.products.content\2210.2.2\contentFiles\any\netstandard2.0\Patterns\PRODUKCJA.ProdukcjaNamiotow\002.Podstawy.gold.xml" Condition="Exists('$(NuGetPackageRoot)soneta.products.content\2210.2.2\contentFiles\any\netstandard2.0\Patterns\PRODUKCJA.ProdukcjaNamiotow\002.Podstawy.gold.xml')">
+      <NuGetPackageId>Soneta.Products.Content</NuGetPackageId>
+      <NuGetPackageVersion>2210.2.2</NuGetPackageVersion>
+      <NuGetItemType>Content</NuGetItemType>
+      <Pack>false</Pack>
+      <Private>False</Private>
+      <Link>Patterns\PRODUKCJA.ProdukcjaNamiotow\002.Podstawy.gold.xml</Link>
+    </Content>
+    <Content Include="$(NuGetPackageRoot)soneta.products.content\2210.2.2\contentFiles\any\netstandard2.0\Patterns\PRODUKCJA.ProdukcjaNamiotow\002.Podstawy.silver.xml" Condition="Exists('$(NuGetPackageRoot)soneta.products.content\2210.2.2\contentFiles\any\netstandard2.0\Patterns\PRODUKCJA.ProdukcjaNamiotow\002.Podstawy.silver.xml')">
+      <NuGetPackageId>Soneta.Products.Content</NuGetPackageId>
+      <NuGetPackageVersion>2210.2.2</NuGetPackageVersion>
+      <NuGetItemType>Content</NuGetItemType>
+      <Pack>false</Pack>
+      <Private>False</Private>
+      <Link>Patterns\PRODUKCJA.ProdukcjaNamiotow\002.Podstawy.silver.xml</Link>
+    </Content>
+    <Content Include="$(NuGetPackageRoot)soneta.products.content\2210.2.2\contentFiles\any\netstandard2.0\Patterns\PRODUKCJA.ProdukcjaNamiotow\100.Kadry.gold.xml" Condition="Exists('$(NuGetPackageRoot)soneta.products.content\2210.2.2\contentFiles\any\netstandard2.0\Patterns\PRODUKCJA.ProdukcjaNamiotow\100.Kadry.gold.xml')">
+      <NuGetPackageId>Soneta.Products.Content</NuGetPackageId>
+      <NuGetPackageVersion>2210.2.2</NuGetPackageVersion>
+      <NuGetItemType>Content</NuGetItemType>
+      <Pack>false</Pack>
+      <Private>False</Private>
+      <Link>Patterns\PRODUKCJA.ProdukcjaNamiotow\100.Kadry.gold.xml</Link>
+    </Content>
+    <Content Include="$(NuGetPackageRoot)soneta.products.content\2210.2.2\contentFiles\any\netstandard2.0\Patterns\PRODUKCJA.ProdukcjaNamiotow\100.Kadry.silver.xml" Condition="Exists('$(NuGetPackageRoot)soneta.products.content\2210.2.2\contentFiles\any\netstandard2.0\Patterns\PRODUKCJA.ProdukcjaNamiotow\100.Kadry.silver.xml')">
+      <NuGetPackageId>Soneta.Products.Content</NuGetPackageId>
+      <NuGetPackageVersion>2210.2.2</NuGetPackageVersion>
+      <NuGetItemType>Content</NuGetItemType>
+      <Pack>false</Pack>
+      <Private>False</Private>
+      <Link>Patterns\PRODUKCJA.ProdukcjaNamiotow\100.Kadry.silver.xml</Link>
+    </Content>
+    <Content Include="$(NuGetPackageRoot)soneta.products.content\2210.2.2\contentFiles\any\netstandard2.0\Patterns\PRODUKCJA.ProdukcjaNamiotow\101.BazaProd.xml" Condition="Exists('$(NuGetPackageRoot)soneta.products.content\2210.2.2\contentFiles\any\netstandard2.0\Patterns\PRODUKCJA.ProdukcjaNamiotow\101.BazaProd.xml')">
+      <NuGetPackageId>Soneta.Products.Content</NuGetPackageId>
+      <NuGetPackageVersion>2210.2.2</NuGetPackageVersion>
+      <NuGetItemType>Content</NuGetItemType>
+      <Pack>false</Pack>
+      <Private>False</Private>
+      <Link>Patterns\PRODUKCJA.ProdukcjaNamiotow\101.BazaProd.xml</Link>
+    </Content>
+    <Content Include="$(NuGetPackageRoot)soneta.products.content\2210.2.2\contentFiles\any\netstandard2.0\Patterns\PRODUKCJA.ProdukcjaNamiotow\101.BazaProd_Dokumenty.xml" Condition="Exists('$(NuGetPackageRoot)soneta.products.content\2210.2.2\contentFiles\any\netstandard2.0\Patterns\PRODUKCJA.ProdukcjaNamiotow\101.BazaProd_Dokumenty.xml')">
+      <NuGetPackageId>Soneta.Products.Content</NuGetPackageId>
+      <NuGetPackageVersion>2210.2.2</NuGetPackageVersion>
+      <NuGetItemType>Content</NuGetItemType>
+      <Pack>false</Pack>
+      <Private>False</Private>
+      <Link>Patterns\PRODUKCJA.ProdukcjaNamiotow\101.BazaProd_Dokumenty.xml</Link>
+    </Content>
+    <Content Include="$(NuGetPackageRoot)soneta.products.content\2210.2.2\contentFiles\any\netstandard2.0\Patterns\PRODUKCJA.ProdukcjaNamiotow\101.BazaProd_Listy.xml" Condition="Exists('$(NuGetPackageRoot)soneta.products.content\2210.2.2\contentFiles\any\netstandard2.0\Patterns\PRODUKCJA.ProdukcjaNamiotow\101.BazaProd_Listy.xml')">
+      <NuGetPackageId>Soneta.Products.Content</NuGetPackageId>
+      <NuGetPackageVersion>2210.2.2</NuGetPackageVersion>
+      <NuGetItemType>Content</NuGetItemType>
+      <Pack>false</Pack>
+      <Private>False</Private>
+      <Link>Patterns\PRODUKCJA.ProdukcjaNamiotow\101.BazaProd_Listy.xml</Link>
+    </Content>
+    <Content Include="$(NuGetPackageRoot)soneta.products.content\2210.2.2\contentFiles\any\netstandard2.0\Patterns\PRODUKCJA.ProdukcjaNamiotow\101.Kadry.xml" Condition="Exists('$(NuGetPackageRoot)soneta.products.content\2210.2.2\contentFiles\any\netstandard2.0\Patterns\PRODUKCJA.ProdukcjaNamiotow\101.Kadry.xml')">
+      <NuGetPackageId>Soneta.Products.Content</NuGetPackageId>
+      <NuGetPackageVersion>2210.2.2</NuGetPackageVersion>
+      <NuGetItemType>Content</NuGetItemType>
+      <Pack>false</Pack>
+      <Private>False</Private>
+      <Link>Patterns\PRODUKCJA.ProdukcjaNamiotow\101.Kadry.xml</Link>
+    </Content>
+    <Content Include="$(NuGetPackageRoot)soneta.products.content\2210.2.2\contentFiles\any\netstandard2.0\Patterns\PRODUKCJA.ProdukcjaNamiotow\102.BazaProd.Ksiega.xml" Condition="Exists('$(NuGetPackageRoot)soneta.products.content\2210.2.2\contentFiles\any\netstandard2.0\Patterns\PRODUKCJA.ProdukcjaNamiotow\102.BazaProd.Ksiega.xml')">
+      <NuGetPackageId>Soneta.Products.Content</NuGetPackageId>
+      <NuGetPackageVersion>2210.2.2</NuGetPackageVersion>
+      <NuGetItemType>Content</NuGetItemType>
+      <Pack>false</Pack>
+      <Private>False</Private>
+      <Link>Patterns\PRODUKCJA.ProdukcjaNamiotow\102.BazaProd.Ksiega.xml</Link>
+    </Content>
+    <Content Include="$(NuGetPackageRoot)soneta.products.content\2210.2.2\contentFiles\any\netstandard2.0\Patterns\PRODUKCJA.ProdukcjaNamiotow\index.html" Condition="Exists('$(NuGetPackageRoot)soneta.products.content\2210.2.2\contentFiles\any\netstandard2.0\Patterns\PRODUKCJA.ProdukcjaNamiotow\index.html')">
+      <NuGetPackageId>Soneta.Products.Content</NuGetPackageId>
+      <NuGetPackageVersion>2210.2.2</NuGetPackageVersion>
+      <NuGetItemType>Content</NuGetItemType>
+      <Pack>false</Pack>
+      <Private>False</Private>
+      <Link>Patterns\PRODUKCJA.ProdukcjaNamiotow\index.html</Link>
+    </Content>
+    <Content Include="$(NuGetPackageRoot)soneta.products.content\2210.2.2\contentFiles\any\netstandard2.0\Patterns\PRODUKCJA.ProdukcjaNamiotow\index_pliki\boil.css" Condition="Exists('$(NuGetPackageRoot)soneta.products.content\2210.2.2\contentFiles\any\netstandard2.0\Patterns\PRODUKCJA.ProdukcjaNamiotow\index_pliki\boil.css')">
+      <NuGetPackageId>Soneta.Products.Content</NuGetPackageId>
+      <NuGetPackageVersion>2210.2.2</NuGetPackageVersion>
+      <NuGetItemType>Content</NuGetItemType>
+      <Pack>false</Pack>
+      <Private>False</Private>
+      <Link>Patterns\PRODUKCJA.ProdukcjaNamiotow\index_pliki\boil.css</Link>
+    </Content>
+    <Content Include="$(NuGetPackageRoot)soneta.products.content\2210.2.2\contentFiles\any\netstandard2.0\Patterns\PRODUKCJA.ProdukcjaNamiotow\index_pliki\bulb.png" Condition="Exists('$(NuGetPackageRoot)soneta.products.content\2210.2.2\contentFiles\any\netstandard2.0\Patterns\PRODUKCJA.ProdukcjaNamiotow\index_pliki\bulb.png')">
+      <NuGetPackageId>Soneta.Products.Content</NuGetPackageId>
+      <NuGetPackageVersion>2210.2.2</NuGetPackageVersion>
+      <NuGetItemType>Content</NuGetItemType>
+      <Pack>false</Pack>
+      <Private>False</Private>
+      <Link>Patterns\PRODUKCJA.ProdukcjaNamiotow\index_pliki\bulb.png</Link>
+    </Content>
+    <Content Include="$(NuGetPackageRoot)soneta.products.content\2210.2.2\contentFiles\any\netstandard2.0\Patterns\PRODUKCJA.ProdukcjaNamiotow\index_pliki\image001.jpg" Condition="Exists('$(NuGetPackageRoot)soneta.products.content\2210.2.2\contentFiles\any\netstandard2.0\Patterns\PRODUKCJA.ProdukcjaNamiotow\index_pliki\image001.jpg')">
+      <NuGetPackageId>Soneta.Products.Content</NuGetPackageId>
+      <NuGetPackageVersion>2210.2.2</NuGetPackageVersion>
+      <NuGetItemType>Content</NuGetItemType>
+      <Pack>false</Pack>
+      <Private>False</Private>
+      <Link>Patterns\PRODUKCJA.ProdukcjaNamiotow\index_pliki\image001.jpg</Link>
+    </Content>
+    <Content Include="$(NuGetPackageRoot)soneta.products.content\2210.2.2\contentFiles\any\netstandard2.0\Patterns\PRODUKCJA.ProdukcjaNamiotow\index_pliki\image002.png" Condition="Exists('$(NuGetPackageRoot)soneta.products.content\2210.2.2\contentFiles\any\netstandard2.0\Patterns\PRODUKCJA.ProdukcjaNamiotow\index_pliki\image002.png')">
+      <NuGetPackageId>Soneta.Products.Content</NuGetPackageId>
+      <NuGetPackageVersion>2210.2.2</NuGetPackageVersion>
+      <NuGetItemType>Content</NuGetItemType>
+      <Pack>false</Pack>
+      <Private>False</Private>
+      <Link>Patterns\PRODUKCJA.ProdukcjaNamiotow\index_pliki\image002.png</Link>
+    </Content>
+    <Content Include="$(NuGetPackageRoot)soneta.products.content\2210.2.2\contentFiles\any\netstandard2.0\Patterns\PRODUKCJA.ProdukcjaNamiotow\index_pliki\logo_enova365.png" Condition="Exists('$(NuGetPackageRoot)soneta.products.content\2210.2.2\contentFiles\any\netstandard2.0\Patterns\PRODUKCJA.ProdukcjaNamiotow\index_pliki\logo_enova365.png')">
+      <NuGetPackageId>Soneta.Products.Content</NuGetPackageId>
+      <NuGetPackageVersion>2210.2.2</NuGetPackageVersion>
+      <NuGetItemType>Content</NuGetItemType>
+      <Pack>false</Pack>
+      <Private>False</Private>
+      <Link>Patterns\PRODUKCJA.ProdukcjaNamiotow\index_pliki\logo_enova365.png</Link>
+    </Content>
+    <Content Include="$(NuGetPackageRoot)soneta.products.content\2210.2.2\contentFiles\any\netstandard2.0\Patterns\PRODUKCJA.ProdukcjaNamiotow\index_pliki\style.css" Condition="Exists('$(NuGetPackageRoot)soneta.products.content\2210.2.2\contentFiles\any\netstandard2.0\Patterns\PRODUKCJA.ProdukcjaNamiotow\index_pliki\style.css')">
+      <NuGetPackageId>Soneta.Products.Content</NuGetPackageId>
+      <NuGetPackageVersion>2210.2.2</NuGetPackageVersion>
+      <NuGetItemType>Content</NuGetItemType>
+      <Pack>false</Pack>
+      <Private>False</Private>
+      <Link>Patterns\PRODUKCJA.ProdukcjaNamiotow\index_pliki\style.css</Link>
+    </Content>
+    <Content Include="$(NuGetPackageRoot)soneta.products.content\2210.2.2\contentFiles\any\netstandard2.0\Patterns\Workflow.Procesy Workflow\001.Podstawy.xml" Condition="Exists('$(NuGetPackageRoot)soneta.products.content\2210.2.2\contentFiles\any\netstandard2.0\Patterns\Workflow.Procesy Workflow\001.Podstawy.xml')">
+      <NuGetPackageId>Soneta.Products.Content</NuGetPackageId>
+      <NuGetPackageVersion>2210.2.2</NuGetPackageVersion>
+      <NuGetItemType>Content</NuGetItemType>
+      <Pack>false</Pack>
+      <Private>False</Private>
+      <Link>Patterns\Workflow.Procesy Workflow\001.Podstawy.xml</Link>
+    </Content>
+    <Content Include="$(NuGetPackageRoot)soneta.products.content\2210.2.2\contentFiles\any\netstandard2.0\Patterns\Workflow.Procesy Workflow\001.WfWorkflow_Dokument_kosztowy.xml" Condition="Exists('$(NuGetPackageRoot)soneta.products.content\2210.2.2\contentFiles\any\netstandard2.0\Patterns\Workflow.Procesy Workflow\001.WfWorkflow_Dokument_kosztowy.xml')">
+      <NuGetPackageId>Soneta.Products.Content</NuGetPackageId>
+      <NuGetPackageVersion>2210.2.2</NuGetPackageVersion>
+      <NuGetItemType>Content</NuGetItemType>
+      <Pack>false</Pack>
+      <Private>False</Private>
+      <Link>Patterns\Workflow.Procesy Workflow\001.WfWorkflow_Dokument_kosztowy.xml</Link>
+    </Content>
+    <Content Include="$(NuGetPackageRoot)soneta.products.content\2210.2.2\contentFiles\any\netstandard2.0\Patterns\Workflow.Procesy Workflow\002.WfWorkflow_Weryfikacja_Faktury.xml" Condition="Exists('$(NuGetPackageRoot)soneta.products.content\2210.2.2\contentFiles\any\netstandard2.0\Patterns\Workflow.Procesy Workflow\002.WfWorkflow_Weryfikacja_Faktury.xml')">
+      <NuGetPackageId>Soneta.Products.Content</NuGetPackageId>
+      <NuGetPackageVersion>2210.2.2</NuGetPackageVersion>
+      <NuGetItemType>Content</NuGetItemType>
+      <Pack>false</Pack>
+      <Private>False</Private>
+      <Link>Patterns\Workflow.Procesy Workflow\002.WfWorkflow_Weryfikacja_Faktury.xml</Link>
+    </Content>
+    <Content Include="$(NuGetPackageRoot)soneta.products.content\2210.2.2\contentFiles\any\netstandard2.0\Patterns\Workflow.Procesy Workflow\003.WfWorkflow_Wniosek_Urlopowy.xml" Condition="Exists('$(NuGetPackageRoot)soneta.products.content\2210.2.2\contentFiles\any\netstandard2.0\Patterns\Workflow.Procesy Workflow\003.WfWorkflow_Wniosek_Urlopowy.xml')">
+      <NuGetPackageId>Soneta.Products.Content</NuGetPackageId>
+      <NuGetPackageVersion>2210.2.2</NuGetPackageVersion>
+      <NuGetItemType>Content</NuGetItemType>
+      <Pack>false</Pack>
+      <Private>False</Private>
+      <Link>Patterns\Workflow.Procesy Workflow\003.WfWorkflow_Wniosek_Urlopowy.xml</Link>
+    </Content>
+    <Content Include="$(NuGetPackageRoot)soneta.products.content\2210.2.2\contentFiles\any\netstandard2.0\Patterns\Workflow.Procesy Workflow\004.Features_Defs.xml" Condition="Exists('$(NuGetPackageRoot)soneta.products.content\2210.2.2\contentFiles\any\netstandard2.0\Patterns\Workflow.Procesy Workflow\004.Features_Defs.xml')">
+      <NuGetPackageId>Soneta.Products.Content</NuGetPackageId>
+      <NuGetPackageVersion>2210.2.2</NuGetPackageVersion>
+      <NuGetItemType>Content</NuGetItemType>
+      <Pack>false</Pack>
+      <Private>False</Private>
+      <Link>Patterns\Workflow.Procesy Workflow\004.Features_Defs.xml</Link>
+    </Content>
+    <Content Include="$(NuGetPackageRoot)soneta.products.content\2210.2.2\contentFiles\any\netstandard2.0\Patterns\Workflow.Procesy Workflow\005.pracownicy i cechy.xml" Condition="Exists('$(NuGetPackageRoot)soneta.products.content\2210.2.2\contentFiles\any\netstandard2.0\Patterns\Workflow.Procesy Workflow\005.pracownicy i cechy.xml')">
+      <NuGetPackageId>Soneta.Products.Content</NuGetPackageId>
+      <NuGetPackageVersion>2210.2.2</NuGetPackageVersion>
+      <NuGetItemType>Content</NuGetItemType>
+      <Pack>false</Pack>
+      <Private>False</Private>
+      <Link>Patterns\Workflow.Procesy Workflow\005.pracownicy i cechy.xml</Link>
+    </Content>
+    <Content Include="$(NuGetPackageRoot)soneta.products.content\2210.2.2\contentFiles\any\netstandard2.0\Patterns\Workflow.Procesy Workflow\006.StrukturaOrganizacyjna.xml" Condition="Exists('$(NuGetPackageRoot)soneta.products.content\2210.2.2\contentFiles\any\netstandard2.0\Patterns\Workflow.Procesy Workflow\006.StrukturaOrganizacyjna.xml')">
+      <NuGetPackageId>Soneta.Products.Content</NuGetPackageId>
+      <NuGetPackageVersion>2210.2.2</NuGetPackageVersion>
+      <NuGetItemType>Content</NuGetItemType>
+      <Pack>false</Pack>
+      <Private>False</Private>
+      <Link>Patterns\Workflow.Procesy Workflow\006.StrukturaOrganizacyjna.xml</Link>
+    </Content>
+    <Content Include="$(NuGetPackageRoot)soneta.products.content\2210.2.2\contentFiles\any\netstandard2.0\Patterns\Workflow.Procesy Workflow\007.WfWorkflow_Zatrudnianie_pracownika.xml" Condition="Exists('$(NuGetPackageRoot)soneta.products.content\2210.2.2\contentFiles\any\netstandard2.0\Patterns\Workflow.Procesy Workflow\007.WfWorkflow_Zatrudnianie_pracownika.xml')">
+      <NuGetPackageId>Soneta.Products.Content</NuGetPackageId>
+      <NuGetPackageVersion>2210.2.2</NuGetPackageVersion>
+      <NuGetItemType>Content</NuGetItemType>
+      <Pack>false</Pack>
+      <Private>False</Private>
+      <Link>Patterns\Workflow.Procesy Workflow\007.WfWorkflow_Zatrudnianie_pracownika.xml</Link>
+    </Content>
+    <Content Include="$(NuGetPackageRoot)soneta.products.content\2210.2.2\contentFiles\any\netstandard2.0\Patterns\Workflow.Procesy Workflow\100.Handel.xml" Condition="Exists('$(NuGetPackageRoot)soneta.products.content\2210.2.2\contentFiles\any\netstandard2.0\Patterns\Workflow.Procesy Workflow\100.Handel.xml')">
+      <NuGetPackageId>Soneta.Products.Content</NuGetPackageId>
+      <NuGetPackageVersion>2210.2.2</NuGetPackageVersion>
+      <NuGetItemType>Content</NuGetItemType>
+      <Pack>false</Pack>
+      <Private>False</Private>
+      <Link>Patterns\Workflow.Procesy Workflow\100.Handel.xml</Link>
+    </Content>
+    <Content Include="$(NuGetPackageRoot)soneta.products.content\2210.2.2\contentFiles\any\netstandard2.0\Patterns\Workflow.Procesy Workflow\background1.png" Condition="Exists('$(NuGetPackageRoot)soneta.products.content\2210.2.2\contentFiles\any\netstandard2.0\Patterns\Workflow.Procesy Workflow\background1.png')">
+      <NuGetPackageId>Soneta.Products.Content</NuGetPackageId>
+      <NuGetPackageVersion>2210.2.2</NuGetPackageVersion>
+      <NuGetItemType>Content</NuGetItemType>
+      <Pack>false</Pack>
+      <Private>False</Private>
+      <Link>Patterns\Workflow.Procesy Workflow\background1.png</Link>
+    </Content>
+    <Content Include="$(NuGetPackageRoot)soneta.products.content\2210.2.2\contentFiles\any\netstandard2.0\Patterns\Workflow.Procesy Workflow\index.html" Condition="Exists('$(NuGetPackageRoot)soneta.products.content\2210.2.2\contentFiles\any\netstandard2.0\Patterns\Workflow.Procesy Workflow\index.html')">
+      <NuGetPackageId>Soneta.Products.Content</NuGetPackageId>
+      <NuGetPackageVersion>2210.2.2</NuGetPackageVersion>
+      <NuGetItemType>Content</NuGetItemType>
+      <Pack>false</Pack>
+      <Private>False</Private>
+      <Link>Patterns\Workflow.Procesy Workflow\index.html</Link>
+    </Content>
+    <Content Include="$(NuGetPackageRoot)soneta.products.content\2210.2.2\contentFiles\any\netstandard2.0\Patterns\Workflow.Procesy Workflow\index_pliki\boil.css" Condition="Exists('$(NuGetPackageRoot)soneta.products.content\2210.2.2\contentFiles\any\netstandard2.0\Patterns\Workflow.Procesy Workflow\index_pliki\boil.css')">
+      <NuGetPackageId>Soneta.Products.Content</NuGetPackageId>
+      <NuGetPackageVersion>2210.2.2</NuGetPackageVersion>
+      <NuGetItemType>Content</NuGetItemType>
+      <Pack>false</Pack>
+      <Private>False</Private>
+      <Link>Patterns\Workflow.Procesy Workflow\index_pliki\boil.css</Link>
+    </Content>
+    <Content Include="$(NuGetPackageRoot)soneta.products.content\2210.2.2\contentFiles\any\netstandard2.0\Patterns\Workflow.Procesy Workflow\index_pliki\broszura_ikona_m.png" Condition="Exists('$(NuGetPackageRoot)soneta.products.content\2210.2.2\contentFiles\any\netstandard2.0\Patterns\Workflow.Procesy Workflow\index_pliki\broszura_ikona_m.png')">
+      <NuGetPackageId>Soneta.Products.Content</NuGetPackageId>
+      <NuGetPackageVersion>2210.2.2</NuGetPackageVersion>
+      <NuGetItemType>Content</NuGetItemType>
+      <Pack>false</Pack>
+      <Private>False</Private>
+      <Link>Patterns\Workflow.Procesy Workflow\index_pliki\broszura_ikona_m.png</Link>
+    </Content>
+    <Content Include="$(NuGetPackageRoot)soneta.products.content\2210.2.2\contentFiles\any\netstandard2.0\Patterns\Workflow.Procesy Workflow\index_pliki\bulb.png" Condition="Exists('$(NuGetPackageRoot)soneta.products.content\2210.2.2\contentFiles\any\netstandard2.0\Patterns\Workflow.Procesy Workflow\index_pliki\bulb.png')">
+      <NuGetPackageId>Soneta.Products.Content</NuGetPackageId>
+      <NuGetPackageVersion>2210.2.2</NuGetPackageVersion>
+      <NuGetItemType>Content</NuGetItemType>
+      <Pack>false</Pack>
+      <Private>False</Private>
+      <Link>Patterns\Workflow.Procesy Workflow\index_pliki\bulb.png</Link>
+    </Content>
+    <Content Include="$(NuGetPackageRoot)soneta.products.content\2210.2.2\contentFiles\any\netstandard2.0\Patterns\Workflow.Procesy Workflow\index_pliki\colorschememapping.xml" Condition="Exists('$(NuGetPackageRoot)soneta.products.content\2210.2.2\contentFiles\any\netstandard2.0\Patterns\Workflow.Procesy Workflow\index_pliki\colorschememapping.xml')">
+      <NuGetPackageId>Soneta.Products.Content</NuGetPackageId>
+      <NuGetPackageVersion>2210.2.2</NuGetPackageVersion>
+      <NuGetItemType>Content</NuGetItemType>
+      <Pack>false</Pack>
+      <Private>False</Private>
+      <Link>Patterns\Workflow.Procesy Workflow\index_pliki\colorschememapping.xml</Link>
+    </Content>
+    <Content Include="$(NuGetPackageRoot)soneta.products.content\2210.2.2\contentFiles\any\netstandard2.0\Patterns\Workflow.Procesy Workflow\index_pliki\dalej.png" Condition="Exists('$(NuGetPackageRoot)soneta.products.content\2210.2.2\contentFiles\any\netstandard2.0\Patterns\Workflow.Procesy Workflow\index_pliki\dalej.png')">
+      <NuGetPackageId>Soneta.Products.Content</NuGetPackageId>
+      <NuGetPackageVersion>2210.2.2</NuGetPackageVersion>
+      <NuGetItemType>Content</NuGetItemType>
+      <Pack>false</Pack>
+      <Private>False</Private>
+      <Link>Patterns\Workflow.Procesy Workflow\index_pliki\dalej.png</Link>
+    </Content>
+    <Content Include="$(NuGetPackageRoot)soneta.products.content\2210.2.2\contentFiles\any\netstandard2.0\Patterns\Workflow.Procesy Workflow\index_pliki\filelist.xml" Condition="Exists('$(NuGetPackageRoot)soneta.products.content\2210.2.2\contentFiles\any\netstandard2.0\Patterns\Workflow.Procesy Workflow\index_pliki\filelist.xml')">
+      <NuGetPackageId>Soneta.Products.Content</NuGetPackageId>
+      <NuGetPackageVersion>2210.2.2</NuGetPackageVersion>
+      <NuGetItemType>Content</NuGetItemType>
+      <Pack>false</Pack>
+      <Private>False</Private>
+      <Link>Patterns\Workflow.Procesy Workflow\index_pliki\filelist.xml</Link>
+    </Content>
+    <Content Include="$(NuGetPackageRoot)soneta.products.content\2210.2.2\contentFiles\any\netstandard2.0\Patterns\Workflow.Procesy Workflow\index_pliki\gotowe.png" Condition="Exists('$(NuGetPackageRoot)soneta.products.content\2210.2.2\contentFiles\any\netstandard2.0\Patterns\Workflow.Procesy Workflow\index_pliki\gotowe.png')">
+      <NuGetPackageId>Soneta.Products.Content</NuGetPackageId>
+      <NuGetPackageVersion>2210.2.2</NuGetPackageVersion>
+      <NuGetItemType>Content</NuGetItemType>
+      <Pack>false</Pack>
+      <Private>False</Private>
+      <Link>Patterns\Workflow.Procesy Workflow\index_pliki\gotowe.png</Link>
+    </Content>
+    <Content Include="$(NuGetPackageRoot)soneta.products.content\2210.2.2\contentFiles\any\netstandard2.0\Patterns\Workflow.Procesy Workflow\index_pliki\image001.jpg" Condition="Exists('$(NuGetPackageRoot)soneta.products.content\2210.2.2\contentFiles\any\netstandard2.0\Patterns\Workflow.Procesy Workflow\index_pliki\image001.jpg')">
+      <NuGetPackageId>Soneta.Products.Content</NuGetPackageId>
+      <NuGetPackageVersion>2210.2.2</NuGetPackageVersion>
+      <NuGetItemType>Content</NuGetItemType>
+      <Pack>false</Pack>
+      <Private>False</Private>
+      <Link>Patterns\Workflow.Procesy Workflow\index_pliki\image001.jpg</Link>
+    </Content>
+    <Content Include="$(NuGetPackageRoot)soneta.products.content\2210.2.2\contentFiles\any\netstandard2.0\Patterns\Workflow.Procesy Workflow\index_pliki\image002.png" Condition="Exists('$(NuGetPackageRoot)soneta.products.content\2210.2.2\contentFiles\any\netstandard2.0\Patterns\Workflow.Procesy Workflow\index_pliki\image002.png')">
+      <NuGetPackageId>Soneta.Products.Content</NuGetPackageId>
+      <NuGetPackageVersion>2210.2.2</NuGetPackageVersion>
+      <NuGetItemType>Content</NuGetItemType>
+      <Pack>false</Pack>
+      <Private>False</Private>
+      <Link>Patterns\Workflow.Procesy Workflow\index_pliki\image002.png</Link>
+    </Content>
+    <Content Include="$(NuGetPackageRoot)soneta.products.content\2210.2.2\contentFiles\any\netstandard2.0\Patterns\Workflow.Procesy Workflow\index_pliki\logo_enova365.png" Condition="Exists('$(NuGetPackageRoot)soneta.products.content\2210.2.2\contentFiles\any\netstandard2.0\Patterns\Workflow.Procesy Workflow\index_pliki\logo_enova365.png')">
+      <NuGetPackageId>Soneta.Products.Content</NuGetPackageId>
+      <NuGetPackageVersion>2210.2.2</NuGetPackageVersion>
+      <NuGetItemType>Content</NuGetItemType>
+      <Pack>false</Pack>
+      <Private>False</Private>
+      <Link>Patterns\Workflow.Procesy Workflow\index_pliki\logo_enova365.png</Link>
+    </Content>
+    <Content Include="$(NuGetPackageRoot)soneta.products.content\2210.2.2\contentFiles\any\netstandard2.0\Patterns\Workflow.Procesy Workflow\index_pliki\moje_zadania.png" Condition="Exists('$(NuGetPackageRoot)soneta.products.content\2210.2.2\contentFiles\any\netstandard2.0\Patterns\Workflow.Procesy Workflow\index_pliki\moje_zadania.png')">
+      <NuGetPackageId>Soneta.Products.Content</NuGetPackageId>
+      <NuGetPackageVersion>2210.2.2</NuGetPackageVersion>
+      <NuGetItemType>Content</NuGetItemType>
+      <Pack>false</Pack>
+      <Private>False</Private>
+      <Link>Patterns\Workflow.Procesy Workflow\index_pliki\moje_zadania.png</Link>
+    </Content>
+    <Content Include="$(NuGetPackageRoot)soneta.products.content\2210.2.2\contentFiles\any\netstandard2.0\Patterns\Workflow.Procesy Workflow\index_pliki\panel_workflow.png" Condition="Exists('$(NuGetPackageRoot)soneta.products.content\2210.2.2\contentFiles\any\netstandard2.0\Patterns\Workflow.Procesy Workflow\index_pliki\panel_workflow.png')">
+      <NuGetPackageId>Soneta.Products.Content</NuGetPackageId>
+      <NuGetPackageVersion>2210.2.2</NuGetPackageVersion>
+      <NuGetItemType>Content</NuGetItemType>
+      <Pack>false</Pack>
+      <Private>False</Private>
+      <Link>Patterns\Workflow.Procesy Workflow\index_pliki\panel_workflow.png</Link>
+    </Content>
+    <Content Include="$(NuGetPackageRoot)soneta.products.content\2210.2.2\contentFiles\any\netstandard2.0\Patterns\Workflow.Procesy Workflow\index_pliki\panel_workflow_procesy.png" Condition="Exists('$(NuGetPackageRoot)soneta.products.content\2210.2.2\contentFiles\any\netstandard2.0\Patterns\Workflow.Procesy Workflow\index_pliki\panel_workflow_procesy.png')">
+      <NuGetPackageId>Soneta.Products.Content</NuGetPackageId>
+      <NuGetPackageVersion>2210.2.2</NuGetPackageVersion>
+      <NuGetItemType>Content</NuGetItemType>
+      <Pack>false</Pack>
+      <Private>False</Private>
+      <Link>Patterns\Workflow.Procesy Workflow\index_pliki\panel_workflow_procesy.png</Link>
+    </Content>
+    <Content Include="$(NuGetPackageRoot)soneta.products.content\2210.2.2\contentFiles\any\netstandard2.0\Patterns\Workflow.Procesy Workflow\index_pliki\style.css" Condition="Exists('$(NuGetPackageRoot)soneta.products.content\2210.2.2\contentFiles\any\netstandard2.0\Patterns\Workflow.Procesy Workflow\index_pliki\style.css')">
+      <NuGetPackageId>Soneta.Products.Content</NuGetPackageId>
+      <NuGetPackageVersion>2210.2.2</NuGetPackageVersion>
+      <NuGetItemType>Content</NuGetItemType>
+      <Pack>false</Pack>
+      <Private>False</Private>
+      <Link>Patterns\Workflow.Procesy Workflow\index_pliki\style.css</Link>
+    </Content>
+    <Content Include="$(NuGetPackageRoot)soneta.products.content\2210.2.2\contentFiles\any\netstandard2.0\Patterns\Workflow.Procesy Workflow\index_pliki\themedata.thmx" Condition="Exists('$(NuGetPackageRoot)soneta.products.content\2210.2.2\contentFiles\any\netstandard2.0\Patterns\Workflow.Procesy Workflow\index_pliki\themedata.thmx')">
+      <NuGetPackageId>Soneta.Products.Content</NuGetPackageId>
+      <NuGetPackageVersion>2210.2.2</NuGetPackageVersion>
+      <NuGetItemType>Content</NuGetItemType>
+      <Pack>false</Pack>
+      <Private>False</Private>
+      <Link>Patterns\Workflow.Procesy Workflow\index_pliki\themedata.thmx</Link>
+    </Content>
+    <Content Include="$(NuGetPackageRoot)soneta.products.content\2210.2.2\contentFiles\any\netstandard2.0\Patterns\Workflow.Procesy Workflow\index_pliki\uruchom.png" Condition="Exists('$(NuGetPackageRoot)soneta.products.content\2210.2.2\contentFiles\any\netstandard2.0\Patterns\Workflow.Procesy Workflow\index_pliki\uruchom.png')">
+      <NuGetPackageId>Soneta.Products.Content</NuGetPackageId>
+      <NuGetPackageVersion>2210.2.2</NuGetPackageVersion>
+      <NuGetItemType>Content</NuGetItemType>
+      <Pack>false</Pack>
+      <Private>False</Private>
+      <Link>Patterns\Workflow.Procesy Workflow\index_pliki\uruchom.png</Link>
+    </Content>
+    <Content Include="$(NuGetPackageRoot)soneta.products.content\2210.2.2\contentFiles\any\netstandard2.0\Patterns\Workflow.Procesy Workflow\index_pliki\wstecz.png" Condition="Exists('$(NuGetPackageRoot)soneta.products.content\2210.2.2\contentFiles\any\netstandard2.0\Patterns\Workflow.Procesy Workflow\index_pliki\wstecz.png')">
+      <NuGetPackageId>Soneta.Products.Content</NuGetPackageId>
+      <NuGetPackageVersion>2210.2.2</NuGetPackageVersion>
+      <NuGetItemType>Content</NuGetItemType>
+      <Pack>false</Pack>
+      <Private>False</Private>
+      <Link>Patterns\Workflow.Procesy Workflow\index_pliki\wstecz.png</Link>
+    </Content>
+    <Content Include="$(NuGetPackageRoot)soneta.products.content\2210.2.2\contentFiles\any\netstandard2.0\Patterns\Workflow.Procesy Workflow\kredka.png" Condition="Exists('$(NuGetPackageRoot)soneta.products.content\2210.2.2\contentFiles\any\netstandard2.0\Patterns\Workflow.Procesy Workflow\kredka.png')">
+      <NuGetPackageId>Soneta.Products.Content</NuGetPackageId>
+      <NuGetPackageVersion>2210.2.2</NuGetPackageVersion>
+      <NuGetItemType>Content</NuGetItemType>
+      <Pack>false</Pack>
+      <Private>False</Private>
+      <Link>Patterns\Workflow.Procesy Workflow\kredka.png</Link>
+    </Content>
+    <Content Include="$(NuGetPackageRoot)soneta.products.content\2210.2.2\contentFiles\any\netstandard2.0\Patterns\Workflow.Procesy Workflow\respond.min.js" Condition="Exists('$(NuGetPackageRoot)soneta.products.content\2210.2.2\contentFiles\any\netstandard2.0\Patterns\Workflow.Procesy Workflow\respond.min.js')">
+      <NuGetPackageId>Soneta.Products.Content</NuGetPackageId>
+      <NuGetPackageVersion>2210.2.2</NuGetPackageVersion>
+      <NuGetItemType>Content</NuGetItemType>
+      <Pack>false</Pack>
+      <Private>False</Private>
+      <Link>Patterns\Workflow.Procesy Workflow\respond.min.js</Link>
+    </Content>
+    <Content Include="$(NuGetPackageRoot)soneta.products.content\2210.2.2\contentFiles\any\netstandard2.0\Soneta.files.xml" Condition="Exists('$(NuGetPackageRoot)soneta.products.content\2210.2.2\contentFiles\any\netstandard2.0\Soneta.files.xml')">
+      <NuGetPackageId>Soneta.Products.Content</NuGetPackageId>
+      <NuGetPackageVersion>2210.2.2</NuGetPackageVersion>
+      <NuGetItemType>Content</NuGetItemType>
+      <Pack>false</Pack>
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+      <TargetPath>Soneta.files.xml</TargetPath>
+      <Private>True</Private>
+      <Link>Soneta.files.xml</Link>
+    </Content>
+  </ItemGroup>
+  <ImportGroup Condition=" '$(ExcludeRestorePackageImports)' != 'true' ">
+    <Import Project="$(NuGetPackageRoot)nunit3testadapter\4.2.1\build\net35\NUnit3TestAdapter.props" Condition="Exists('$(NuGetPackageRoot)nunit3testadapter\4.2.1\build\net35\NUnit3TestAdapter.props')" />
+    <Import Project="$(NuGetPackageRoot)microsoft.codecoverage\17.2.0\build\netstandard1.0\Microsoft.CodeCoverage.props" Condition="Exists('$(NuGetPackageRoot)microsoft.codecoverage\17.2.0\build\netstandard1.0\Microsoft.CodeCoverage.props')" />
+    <Import Project="$(NuGetPackageRoot)microsoft.net.test.sdk\17.2.0\build\net45\Microsoft.NET.Test.Sdk.props" Condition="Exists('$(NuGetPackageRoot)microsoft.net.test.sdk\17.2.0\build\net45\Microsoft.NET.Test.Sdk.props')" />
+  </ImportGroup>
+  <PropertyGroup Condition=" '$(ExcludeRestorePackageImports)' != 'true' ">
+    <PkgMicrosoft_CodeAnalysis_Analyzers Condition=" '$(PkgMicrosoft_CodeAnalysis_Analyzers)' == '' ">C:\Users\athos\.nuget\packages\microsoft.codeanalysis.analyzers\2.6.1</PkgMicrosoft_CodeAnalysis_Analyzers>
+    <PkgNUnit_Extension_VSProjectLoader Condition=" '$(PkgNUnit_Extension_VSProjectLoader)' == '' ">C:\Users\athos\.nuget\packages\nunit.extension.vsprojectloader\3.8.0</PkgNUnit_Extension_VSProjectLoader>
+    <PkgNUnit_Extension_TeamCityEventListener Condition=" '$(PkgNUnit_Extension_TeamCityEventListener)' == '' ">C:\Users\athos\.nuget\packages\nunit.extension.teamcityeventlistener\1.0.3</PkgNUnit_Extension_TeamCityEventListener>
+    <PkgNUnit_Extension_NUnitV2ResultWriter Condition=" '$(PkgNUnit_Extension_NUnitV2ResultWriter)' == '' ">C:\Users\athos\.nuget\packages\nunit.extension.nunitv2resultwriter\3.5.0</PkgNUnit_Extension_NUnitV2ResultWriter>
+    <PkgNUnit_Extension_NUnitV2Driver Condition=" '$(PkgNUnit_Extension_NUnitV2Driver)' == '' ">C:\Users\athos\.nuget\packages\nunit.extension.nunitv2driver\3.6.0</PkgNUnit_Extension_NUnitV2Driver>
+    <PkgNUnit_Extension_NUnitProjectLoader Condition=" '$(PkgNUnit_Extension_NUnitProjectLoader)' == '' ">C:\Users\athos\.nuget\packages\nunit.extension.nunitprojectloader\3.5.0</PkgNUnit_Extension_NUnitProjectLoader>
+    <PkgNUnit_ConsoleRunner Condition=" '$(PkgNUnit_ConsoleRunner)' == '' ">C:\Users\athos\.nuget\packages\nunit.consolerunner\3.9.0</PkgNUnit_ConsoleRunner>
+    <PkgMachine_Specifications_Runner_Console Condition=" '$(PkgMachine_Specifications_Runner_Console)' == '' ">C:\Users\athos\.nuget\packages\machine.specifications.runner.console\0.9.2</PkgMachine_Specifications_Runner_Console>
+  </PropertyGroup>
+</Project>

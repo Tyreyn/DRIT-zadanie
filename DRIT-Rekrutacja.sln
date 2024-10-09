@@ -1,0 +1,43 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 17
+VisualStudioVersion = 17.8.34316.72
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "DRIT_Rekrutacja", "DRIT_Rekrutacja\DRIT_Rekrutacja.csproj", "{057E990F-8CE1-47A9-8A19-3852FA2FEFB4}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Solution Items", "Solution Items", "{342177A1-CB88-477E-9F80-C13575D4A1F4}"
+	ProjectSection(SolutionItems) = preProject
+		Directory.Build.props = Directory.Build.props
+		global.json = global.json
+	EndProjectSection
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "DRIT_Rekrutacja.UI", "DRIT_Rekrutacja.UI\DRIT_Rekrutacja.UI.csproj", "{B6FEAFEA-55FE-4EEB-9269-35DD77C26F49}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "DRIT_Rekrutacja.Tests", "DRIT_Rekrutacja.Tests\DRIT_Rekrutacja.Tests.csproj", "{22C9B2DE-D99A-44B2-B89F-43FD4CEE2C32}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{057E990F-8CE1-47A9-8A19-3852FA2FEFB4}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{057E990F-8CE1-47A9-8A19-3852FA2FEFB4}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{057E990F-8CE1-47A9-8A19-3852FA2FEFB4}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{057E990F-8CE1-47A9-8A19-3852FA2FEFB4}.Release|Any CPU.Build.0 = Release|Any CPU
+		{B6FEAFEA-55FE-4EEB-9269-35DD77C26F49}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{B6FEAFEA-55FE-4EEB-9269-35DD77C26F49}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{B6FEAFEA-55FE-4EEB-9269-35DD77C26F49}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{B6FEAFEA-55FE-4EEB-9269-35DD77C26F49}.Release|Any CPU.Build.0 = Release|Any CPU
+		{22C9B2DE-D99A-44B2-B89F-43FD4CEE2C32}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{22C9B2DE-D99A-44B2-B89F-43FD4CEE2C32}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{22C9B2DE-D99A-44B2-B89F-43FD4CEE2C32}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{22C9B2DE-D99A-44B2-B89F-43FD4CEE2C32}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {3408998C-4465-4794-BD2E-135E95E190EB}
+	EndGlobalSection
+EndGlobal

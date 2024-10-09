@@ -1,0 +1,10 @@
+C:\Users\athos\source\repos\DRIT-Rekrutacja\bin\Debug\netstandard2.0\DRIT_Rekrutacja.deps.json
+C:\Users\athos\source\repos\DRIT-Rekrutacja\bin\Debug\netstandard2.0\DRIT_Rekrutacja.dll
+C:\Users\athos\source\repos\DRIT-Rekrutacja\bin\Debug\netstandard2.0\DRIT_Rekrutacja.pdb
+C:\Users\athos\source\repos\DRIT-Rekrutacja\DRIT_Rekrutacja\obj\Debug\netstandard2.0\DRIT_Rekrutacja.csproj.AssemblyReference.cache
+C:\Users\athos\source\repos\DRIT-Rekrutacja\DRIT_Rekrutacja\obj\Debug\netstandard2.0\DRIT_Rekrutacja.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\athos\source\repos\DRIT-Rekrutacja\DRIT_Rekrutacja\obj\Debug\netstandard2.0\DRIT_Rekrutacja.AssemblyInfoInputs.cache
+C:\Users\athos\source\repos\DRIT-Rekrutacja\DRIT_Rekrutacja\obj\Debug\netstandard2.0\DRIT_Rekrutacja.AssemblyInfo.cs
+C:\Users\athos\source\repos\DRIT-Rekrutacja\DRIT_Rekrutacja\obj\Debug\netstandard2.0\DRIT_Rekrutacja.csproj.CoreCompileInputs.cache
+C:\Users\athos\source\repos\DRIT-Rekrutacja\DRIT_Rekrutacja\obj\Debug\netstandard2.0\DRIT_Rekrutacja.dll
+C:\Users\athos\source\repos\DRIT-Rekrutacja\DRIT_Rekrutacja\obj\Debug\netstandard2.0\DRIT_Rekrutacja.pdb
