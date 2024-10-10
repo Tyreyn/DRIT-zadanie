@@ -4391,6 +4391,20 @@
         "runtime": {
           "lib/netstandard1.3/_._": {}
         }
+      },
+      "DRIT_Rekrutacja.UI/1.0.0": {
+        "type": "project",
+        "framework": ".NETStandard,Version=v2.0",
+        "dependencies": {
+          "Soneta.Products.Modules": "2210.2.2",
+          "System.ValueTuple": "4.5.0"
+        },
+        "compile": {
+          "bin/placeholder/DRIT_Rekrutacja.UI.dll": {}
+        },
+        "runtime": {
+          "bin/placeholder/DRIT_Rekrutacja.UI.dll": {}
+        }
       }
     }
   },
@@ -13287,10 +13301,16 @@
         "system.xml.xpath.xdocument.4.3.0.nupkg.sha512",
         "system.xml.xpath.xdocument.nuspec"
       ]
+    },
+    "DRIT_Rekrutacja.UI/1.0.0": {
+      "type": "project",
+      "path": "../DRIT_Rekrutacja.UI/DRIT_Rekrutacja.UI.csproj",
+      "msbuildProject": "../DRIT_Rekrutacja.UI/DRIT_Rekrutacja.UI.csproj"
     }
   },
   "projectFileDependencyGroups": {
     ".NETStandard,Version=v2.0": [
+      "DRIT_Rekrutacja.UI >= 1.0.0",
       "NETStandard.Library >= 2.0.3",
       "Soneta.Products.Modules >= 2210.2.2",
       "System.ValueTuple >= 4.5.0"
@@ -13328,7 +13348,11 @@
       "frameworks": {
         "netstandard2.0": {
           "targetAlias": "netstandard2.0",
-          "projectReferences": {}
+          "projectReferences": {
+            "C:\\Users\\athos\\source\\repos\\DRIT-Rekrutacja\\DRIT_Rekrutacja.UI\\DRIT_Rekrutacja.UI.csproj": {
+              "projectPath": "C:\\Users\\athos\\source\\repos\\DRIT-Rekrutacja\\DRIT_Rekrutacja.UI\\DRIT_Rekrutacja.UI.csproj"
+            }
+          }
         }
       },
       "warningProperties": {

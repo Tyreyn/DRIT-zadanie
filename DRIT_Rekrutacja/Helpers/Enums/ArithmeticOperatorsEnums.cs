@@ -3,9 +3,9 @@ using System;
 using System.Collections.Generic;
 using System.Text;
 
-namespace DRIT_Rekrutacja.Enums
+namespace DRIT_Rekrutacja.Helpers.Enums
 {
-   public enum ArithmeticOperators
+    public enum ArithmeticOperatorsEnums
     {
         [Caption("+")]
         addition = '+',

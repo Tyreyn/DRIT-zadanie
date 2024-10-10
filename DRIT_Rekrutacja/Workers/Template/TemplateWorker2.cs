@@ -4,12 +4,11 @@ using DRIT_Rekrutacja.Workers.Template;
 using Soneta.Business;
 using Soneta.Kadry;
 using System;
-using ICSharpCode.NRefactory.CSharp;
 
-[assembly: Worker(typeof(TemplateWorker), typeof(Pracownicy))]
+[assembly: Worker(typeof(TemplateWorker2), typeof(Pracownicy))]
 namespace DRIT_Rekrutacja.Workers.Template
 {
-    public class TemplateWorker
+    public class TemplateWorker2
     {
         [Context]
         public Context Cx { get; set; }
@@ -18,16 +17,16 @@ namespace DRIT_Rekrutacja.Workers.Template
         public Pracownik[] pracownicy { get; set; }
 
         [Context]
-        public SimpleCalculatorParams parametry { get; set; }
+        public FigureCalculatorParams Parametry { get; set; }
 
-        [Action("Kalkulator",
-           Description = "Prosty kalkulator",
+        [Action("Kalkulator figur",
+           Description = "Prosty kalkulator figur",
            Priority = 10,
+
            Mode = ActionMode.ReadOnlySession,
            Icon = ActionIcon.Accept,
            Target = ActionTarget.ToolbarWithText)]
-
-        public void SimpleCalculator()
+        public void SimpleFigureCalculator()
         {
             CalculationsClass calculations = new CalculationsClass();
             DebuggerSession.MarkLineAsBreakPoint();
@@ -36,18 +35,17 @@ namespace DRIT_Rekrutacja.Workers.Template
             {
                 using (Session nowaSesja = this.Cx.Login.CreateSession(false, false, "ModyfikacjaPracownika"))
                 {
-                    SimpleCalculatorParams parametry = new SimpleCalculatorParams(this.Cx);
                     foreach (Pracownik pracownik in pracownicy)
                     {
                         using (ITransaction trans = nowaSesja.Logout(true))
                         {
                             var pracownikZSesja = nowaSesja.Get(pracownik);
 
-                            pracownikZSesja.Features["DataObliczen"] = parametry.OperationsDate;
-                            pracownikZSesja.Features["Wynik"] = calculations.MakeCalculations<double, double>(
-                                parametry.A,
-                                parametry.B,
-                                parametry.Operator);
+                            pracownikZSesja.Features["DataObliczen"] = this.Parametry.OperationsDate;
+                            pracownikZSesja.Features["Wynik"] = calculations.MakeFigureCalculations<double>(
+                                this.Parametry.A,
+                                this.Parametry.B,
+                                this.Parametry.Operator);
 
                             trans.CommitUI();
                         }
