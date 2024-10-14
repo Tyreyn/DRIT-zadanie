@@ -1,5 +1,5 @@
 # DRIT-zadanie
-Do poprawnego działania dodatku, należy zaimportować Config.xml.
+Do poprawnego działania dodatku, należy zaimportować Cechy.xml.
 
 ## Zadanie 1
 Rozwiązanie zadania znajduje się w pliku Workers/Template/SimpleCalculatorWork.cs
