@@ -6,19 +6,36 @@ namespace DRIT_Rekrutacja.Params
 {
     public class SimpleCalculatorParams : ContextBase
     {
+        /// <summary>
+        /// Variable A.
+        /// </summary>
         public double A { get; set; }
 
+        /// <summary>
+        /// Variable B.
+        /// </summary>
         public double B { get; set; }
 
+        /// <summary>
+        /// Date of calculation.
+        /// </summary>
         [Caption("Data obliczeń")]
+        public Date OperationDate { get; set; }
 
-        public Date OperationsDate { get; set; }
-
+        /// <summary>
+        /// Arithemtic operator.
+        /// </summary>
         public ArithmeticOperatorsEnums Operator { get; set; }
 
+        /// <summary>
+        /// Class constructor.
+        /// </summary>
+        /// <param name="context">
+        /// Enova context.
+        /// </param>
         public SimpleCalculatorParams(Context context) : base(context)
         {
-            this.OperationsDate = Date.Today;
+            this.OperationDate = Date.Today;
         }
     }
 }

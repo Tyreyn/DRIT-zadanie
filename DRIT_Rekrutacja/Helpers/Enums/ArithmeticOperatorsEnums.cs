@@ -1,19 +1,22 @@
 ﻿using Soneta.Types;
-using System;
-using System.Collections.Generic;
-using System.Text;
 
 namespace DRIT_Rekrutacja.Helpers.Enums
 {
+    /// <summary>
+    /// Supported arithemtic operators enums.
+    /// </summary>
     public enum ArithmeticOperatorsEnums
     {
         [Caption("+")]
-        addition = '+',
+        Addition = '+',
+
         [Caption("-")]
-        subtraction = '-',
+        Subtraction = '-',
+
         [Caption("*")]
-        multiplication = '*',
+        Multiplication = '*',
+
         [Caption("/")]
-        division = '/'
+        Division = '/'
     }
 }

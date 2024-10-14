@@ -14,7 +14,7 @@ using System.Reflection;
 [assembly: System.Reflection.AssemblyCompanyAttribute("DRIT_Rekrutacja")]
 [assembly: System.Reflection.AssemblyConfigurationAttribute("Debug")]
 [assembly: System.Reflection.AssemblyFileVersionAttribute("1.0.0.0")]
-[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+09e74e62025f7975cbfc152a16199d6963052c7a")]
+[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+8d63fbc3e84495f7037279fa14a6badcc274d74f")]
 [assembly: System.Reflection.AssemblyProductAttribute("DRIT_Rekrutacja")]
 [assembly: System.Reflection.AssemblyTitleAttribute("DRIT_Rekrutacja")]
 [assembly: System.Reflection.AssemblyVersionAttribute("1.0.0.0")]

@@ -1,9 +1,10 @@
 ﻿using System;
-using System.Collections.Generic;
-using System.Text;
 
 namespace DRIT_Rekrutacja.Helpers
 {
+    /// <summary>
+    /// String to int converter.
+    /// </summary>
     public static class StringToIntConverter
     {
         /// <summary>
@@ -22,11 +23,11 @@ namespace DRIT_Rekrutacja.Helpers
             {
                 if (Char.IsDigit(number))
                 {
-                    result += number - '0';
+                    result = (result * 10) + (number - '0');
                 }
                 else
                 {
-                    throw new ArgumentException(inputString + "Zmienna nie jest liczbą");
+                    throw new ArgumentException(inputString + ": Zmienna nie jest liczbą");
                 }
             }
             return result;

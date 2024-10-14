@@ -4,22 +4,33 @@ using DRIT_Rekrutacja.Workers.Template;
 using Soneta.Business;
 using Soneta.Kadry;
 using System;
-using ICSharpCode.NRefactory.CSharp;
 
-[assembly: Worker(typeof(TemplateWorker), typeof(Pracownicy))]
+[assembly: Worker(typeof(SimpleCalculatorWorker), typeof(Pracownicy))]
 namespace DRIT_Rekrutacja.Workers.Template
 {
-    public class TemplateWorker
+    public class SimpleCalculatorWorker
     {
+        /// <summary>
+        /// Sonata context.
+        /// </summary>
         [Context]
         public Context Cx { get; set; }
 
+        /// <summary>
+        /// Pracownicy list.
+        /// </summary>
         [Context]
         public Pracownik[] pracownicy { get; set; }
 
+        /// <summary>
+        /// Simple calculator params.
+        /// </summary>
         [Context]
-        public SimpleCalculatorParams parametry { get; set; }
+        public SimpleCalculatorParams SimpleCalculatorParams { get; set; }
 
+        /// <summary>
+        /// Make simple calculations action.
+        /// </summary>
         [Action("Kalkulator",
            Description = "Prosty kalkulator",
            Priority = 10,
@@ -36,18 +47,17 @@ namespace DRIT_Rekrutacja.Workers.Template
             {
                 using (Session nowaSesja = this.Cx.Login.CreateSession(false, false, "ModyfikacjaPracownika"))
                 {
-                    SimpleCalculatorParams parametry = new SimpleCalculatorParams(this.Cx);
                     foreach (Pracownik pracownik in pracownicy)
                     {
                         using (ITransaction trans = nowaSesja.Logout(true))
                         {
                             var pracownikZSesja = nowaSesja.Get(pracownik);
 
-                            pracownikZSesja.Features["DataObliczen"] = parametry.OperationsDate;
-                            pracownikZSesja.Features["Wynik"] = calculations.MakeCalculations<double, double>(
-                                parametry.A,
-                                parametry.B,
-                                parametry.Operator);
+                            pracownikZSesja.Features["DataObliczen"] = SimpleCalculatorParams.OperationDate;
+                            pracownikZSesja.Features["Wynik"] = calculations.MakeCalculations(
+                                    SimpleCalculatorParams.A,
+                                    SimpleCalculatorParams.B,
+                                    SimpleCalculatorParams.Operator);
 
                             trans.CommitUI();
                         }

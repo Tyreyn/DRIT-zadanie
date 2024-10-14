@@ -5,20 +5,33 @@ using Soneta.Business;
 using Soneta.Kadry;
 using System;
 
-[assembly: Worker(typeof(TemplateWorker2), typeof(Pracownicy))]
+[assembly: Worker(typeof(FigureCalculatorWorker), typeof(Pracownicy))]
 namespace DRIT_Rekrutacja.Workers.Template
 {
-    public class TemplateWorker2
+    public class FigureCalculatorWorker
     {
+        /// <summary>
+        /// Sonata context.
+        /// </summary>
         [Context]
         public Context Cx { get; set; }
 
+        /// <summary>
+        /// Pracownicy list.
+        /// </summary>
         [Context]
         public Pracownik[] pracownicy { get; set; }
 
+        /// <summary>
+        /// Figure calculator params.
+        /// </summary>
         [Context]
-        public FigureCalculatorParams Parametry { get; set; }
+        public FigureCalculatorParams FigureCalculatorParams { get; set; }
 
+
+        /// <summary>
+        /// Make figure area calculations action.
+        /// </summary>
         [Action("Kalkulator figur",
            Description = "Prosty kalkulator figur",
            Priority = 10,
@@ -40,12 +53,11 @@ namespace DRIT_Rekrutacja.Workers.Template
                         using (ITransaction trans = nowaSesja.Logout(true))
                         {
                             var pracownikZSesja = nowaSesja.Get(pracownik);
-
-                            pracownikZSesja.Features["DataObliczen"] = this.Parametry.OperationsDate;
-                            pracownikZSesja.Features["Wynik"] = calculations.MakeFigureCalculations<double>(
-                                this.Parametry.A,
-                                this.Parametry.B,
-                                this.Parametry.Operator);
+                            pracownikZSesja.Features["DataObliczen"] = this.FigureCalculatorParams.OperationDate;
+                            pracownikZSesja.Features["WynikINT"] = calculations.MakeFigureCalculations(
+                                    this.FigureCalculatorParams.A,
+                                    this.FigureCalculatorParams.B,
+                                    this.FigureCalculatorParams.Figure);
 
                             trans.CommitUI();
                         }

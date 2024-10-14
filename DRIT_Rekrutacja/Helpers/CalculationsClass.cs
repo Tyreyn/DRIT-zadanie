@@ -3,43 +3,92 @@ using System;
 
 namespace DRIT_Rekrutacja.Helpers
 {
+
+    /// <summary>
+    /// Class responsible for calculations.
+    /// </summary>
     public class CalculationsClass
     {
 
-        public Tout MakeCalculations<Tin, Tout>(Tin inputA, Tin inputB, ArithmeticOperatorsEnums operation)
+        /// <summary>
+        /// Make simple calculations.
+        /// </summary>
+        /// <typeparam name="T">
+        /// Input type variable.
+        /// </typeparam>
+        /// <param name="inputA">
+        /// Variable A.
+        /// </param>
+        /// <param name="inputB">
+        /// Variable B.
+        /// </param>
+        /// <param name="arithmeticOperator">
+        /// Arithemtic operator.
+        /// </param>
+        /// <returns>
+        /// Result of operation.
+        /// </returns>
+        /// <exception cref="DivideByZeroException">
+        /// Throw exception when dividing by zero.
+        /// </exception>
+        /// <exception cref="NotImplementedException">
+        /// Throw exception when input operator is not implemented yet.
+        /// </exception>
+        public double MakeCalculations<T>(T inputA, T inputB, ArithmeticOperatorsEnums arithmeticOperator)
         {
             dynamic A = inputA;
             dynamic B = inputB;
-            if(typeof(Tin) == typeof(string))
+            if(typeof(T) == typeof(string))
             {
                 A = StringToIntConverter.ToInt(A);
                 B = StringToIntConverter.ToInt(B);
             }
 
-            switch (operation)
+            switch (arithmeticOperator)
             {
-                case ArithmeticOperatorsEnums.addition:
+                case ArithmeticOperatorsEnums.Addition:
                     return A + B;
-                case ArithmeticOperatorsEnums.subtraction:
+                case ArithmeticOperatorsEnums.Subtraction:
                     return A - B;
-                case ArithmeticOperatorsEnums.multiplication:
+                case ArithmeticOperatorsEnums.Multiplication:
                     return A * B;
-                case ArithmeticOperatorsEnums.division:
+                case ArithmeticOperatorsEnums.Division:
                     if (B == 0)
                     {
-                        throw new DivideByZeroException("Division by zero is not allowed.");
+                        throw new DivideByZeroException("Dzielenie przez zero nie jest dozwolone!");
                     }
                     return A / B;
                 default:
-                    throw new NotImplementedException();
+                    throw new NotImplementedException("Operacja nie jest wspierana!");
             }
         }
 
-        public int MakeFigureCalculations<Tin>(Tin inputA, Tin inputB, FigureEnums figure)
+        /// <summary>
+        /// Make figure area calculation.
+        /// </summary>
+        /// <typeparam name="T">
+        /// Input type variable.
+        /// </typeparam>
+        /// <param name="inputA">
+        /// Variable A.
+        /// </param>
+        /// <param name="inputB">
+        /// Variable B.
+        /// </param>
+        /// <param name="figure">
+        /// Figure whose area is to be calculated.
+        /// </param>
+        /// <returns>
+        /// Calculated figure area.
+        /// </returns>
+        /// <exception cref="NotImplementedException">
+        /// Throw exception when input operator is not implemented yet.
+        /// </exception>
+        public int MakeFigureCalculations<T>(T inputA, T inputB, FigureEnums figure)
         {
             dynamic A = inputA;
             dynamic B = inputB;
-            if (typeof(Tin) == typeof(string))
+            if (typeof(T) == typeof(string))
             {
                 A = StringToIntConverter.ToInt(A);
                 B = StringToIntConverter.ToInt(B);
@@ -47,15 +96,15 @@ namespace DRIT_Rekrutacja.Helpers
 
             switch (figure)
             {
-                case FigureEnums.square:
-                case FigureEnums.rectangle:
+                case FigureEnums.Square:
+                case FigureEnums.Rectangle:
                     return A * B;
-                case FigureEnums.triangle:
+                case FigureEnums.Triangle:
                     return (A * B)/2;
-                case FigureEnums.circle:
-                    return Math.PI*Math.Pow(A,2);
+                case FigureEnums.Circle:
+                    return (int)(Math.PI*A*A);
                 default:
-                    throw new NotImplementedException();
+                    throw new NotImplementedException("Obliczenie pola dla tej figury nie jest wspierane!");
             }
         }
     }

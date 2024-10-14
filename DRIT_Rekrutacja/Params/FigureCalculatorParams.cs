@@ -1,27 +1,44 @@
 ﻿using DRIT_Rekrutacja.Helpers.Enums;
 using Soneta.Business;
 using Soneta.Types;
-using System;
-using System.Collections.Generic;
-using System.Text;
 
 namespace DRIT_Rekrutacja.Params
 {
+    /// <summary>
+    /// Figure parameters class.
+    /// </summary>
     public class FigureCalculatorParams : ContextBase
     {
-        public double A { get; set; }
+        /// <summary>
+        /// Variable A.
+        /// </summary>
+        public string A { get; set; }
 
-        public double B { get; set; }
+        /// <summary>
+        /// Variable B.
+        /// </summary>
+        public string B { get; set; }
 
+        /// <summary>
+        /// Date of calculation.
+        /// </summary>
         [Caption("Data obliczeń")]
+        public Date OperationDate { get; set; }
 
-        public Date OperationsDate { get; set; }
+        /// <summary>
+        /// Figure whose area is to be calculated.
+        /// </summary>
+        public FigureEnums Figure { get; set; }
 
-        public FigureEnums Operator { get; set; }
-
+        /// <summary>
+        /// Class constructor.
+        /// </summary>
+        /// <param name="context">
+        /// Enova context.
+        /// </param>
         public FigureCalculatorParams(Context context) : base(context)
         {
-            this.OperationsDate = Date.Today;
+            this.OperationDate = Date.Today;
         }
     }
 }
