@@ -91,7 +91,7 @@ namespace DRIT_Rekrutacja.Helpers
             if (typeof(T) == typeof(string))
             {
                 A = StringToIntConverter.ToInt(A);
-                B = StringToIntConverter.ToInt(B);
+                B = figure == FigureEnums.Circle ? inputB : StringToIntConverter.ToInt(B);
             }
 
             switch (figure)
